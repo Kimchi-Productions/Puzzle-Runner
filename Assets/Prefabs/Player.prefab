@@ -144,3 +144,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed_X: 2
   Speed_Y: 0
+  inventory: {fileID: 0}
