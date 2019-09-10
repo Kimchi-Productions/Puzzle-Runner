@@ -13,6 +13,7 @@ public class Inventory : MonoBehaviour
 
     public void AddItem(IInventoryItem item)
     {
+        Debug.Log("add item");
         if(mItems.Count < SLOTS)
         {
             Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
@@ -23,6 +24,7 @@ public class Inventory : MonoBehaviour
                 mItems.Add(item);
 
                 item.OnPickUp();
+                Debug.Log(ItemAdded);
 
                 if (ItemAdded != null)
                 {

@@ -46,11 +46,11 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
         gameObject.transform.position = pz;
     }
 
-    public GameObject Player;
     public float gravityAfterCollision = -1f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        GameObject Player = GameObject.FindGameObjectWithTag("Player");
         Player.GetComponent<Rigidbody2D>().gravityScale = gravityAfterCollision;
 
     }
