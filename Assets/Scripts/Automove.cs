@@ -9,7 +9,6 @@ public class Automove : MonoBehaviour
     [Range(-5, 5)]
     public float Speed_Y;
 
-<<<<<<< HEAD
 
 
     void OnTriggerEnter2D(Collider2D other)
@@ -25,9 +24,7 @@ public class Automove : MonoBehaviour
         Destroy(this.gameObject);
         Debug.Log("Destroyed due to despawning");
     }
-=======
     public Inventory inventory;
->>>>>>> development
 
     void Update()
     {
