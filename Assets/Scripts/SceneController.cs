@@ -10,6 +10,11 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void GotoLevelSelect()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
     public void RestartFirstlvl()
     {
         SceneManager.LoadScene("GameScene");
