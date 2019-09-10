@@ -9,7 +9,7 @@ public class JumpPad : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector3.up * jumpForceup);
-        other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector3.right * jumpForceforward);
+        other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForceup);
+        other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * jumpForceforward);
     }
 }
