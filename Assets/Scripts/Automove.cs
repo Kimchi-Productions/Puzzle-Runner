@@ -19,11 +19,11 @@ public class Automove : MonoBehaviour
     //}
 
 
-    void OnBecameInvisible()
-    {
-        Destroy(this.gameObject);
-        Debug.Log("Destroyed due to despawning");
-    }
+    //void OnBecameInvisible()
+    //{
+    //    Destroy(this.gameObject);
+    //    Debug.Log("Destroyed due to despawning");
+    //}
     public Inventory inventory;
 
     void Update()
