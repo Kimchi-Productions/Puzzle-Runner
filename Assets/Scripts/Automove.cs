@@ -11,12 +11,12 @@ public class Automove : MonoBehaviour
 
 
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        Destroy(this.gameObject);
-        Destroy(other.gameObject);
-        Debug.Log("Destroyed due to collision");
-    }
+    //void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    Destroy(this.gameObject);
+    //    Destroy(other.gameObject);
+    //    Debug.Log("Destroyed due to collision");
+    //}
 
 
     void OnBecameInvisible()
@@ -37,6 +37,7 @@ public class Automove : MonoBehaviour
 
         if(item != null)
         {
+            Debug.Log(item);
             inventory.AddItem(item);
         }
     }
