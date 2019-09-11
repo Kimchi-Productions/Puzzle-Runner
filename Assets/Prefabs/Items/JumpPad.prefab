@@ -124,5 +124,5 @@ MonoBehaviour:
   _Name: JumpPad
   _Image: {fileID: 7669339166942021809, guid: fde97d8e8e4183947ab67f1233a98a2d, type: 3}
   canPickup: 1
-  jumpForceup: 250
+  jumpForceup: 300
   jumpForceforward: 200
