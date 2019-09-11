@@ -15,9 +15,10 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("LevelSelect");
     }
-    public void RestartFirstlvl()
+    public void RestartLevel()
     {
-        SceneManager.LoadScene("GameScene");
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
     public void Nextlvl()
     {
