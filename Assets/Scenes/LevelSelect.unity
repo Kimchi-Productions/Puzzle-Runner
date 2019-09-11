@@ -267,7 +267,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 801650219}
   m_HandleRect: {fileID: 801650218}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -553,6 +553,7 @@ MonoBehaviour:
     type: 3}
   button: {fileID: 0}
   ButtonText: {fileID: 0}
+  levelAmount: 3
 --- !u!114 &1266483493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,8 +763,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 642362804}
   m_HandleRect: {fileID: 642362803}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.99999994
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -844,10 +845,10 @@ RectTransform:
   m_Father: {fileID: 1827704064}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2, y: -2.2}
-  m_SizeDelta: {x: 757.9, y: 386.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 2.7000122, y: -277}
+  m_SizeDelta: {x: 756.9, y: 386.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633354475
 MonoBehaviour:
@@ -1038,6 +1039,7 @@ MonoBehaviour:
     type: 3}
   button: {fileID: 0}
   ButtonText: {fileID: 0}
+  levelAmount: 0
 --- !u!114 &1827704061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,7 +1072,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

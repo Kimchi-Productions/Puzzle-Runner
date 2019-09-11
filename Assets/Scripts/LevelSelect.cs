@@ -11,24 +11,19 @@ public class LevelSelect : MonoBehaviour
     public GameObject preFabButton;
     public Button button;
     public Text ButtonText;
+    public int levelAmount;
    
-    // Start is called before the first frame update
     void Start()
     {
-        string[] files = Directory.GetFiles(path, "*.*");
-        foreach (string sourceFile in files)
+        for (int i = 1; i <= levelAmount; i++)
         {
-
-            string fileName = Path.GetFileName(sourceFile);
-
-            if (!fileName.Contains(".meta"))
-            {
-                GameObject Buttons = Instantiate(preFabButton, transform);
-                fileName = fileName.Substring(0, fileName.Length - 6);
-                preFabButton.GetComponentInChildren<Text>().text = fileName;
-                Button buttonElement = Buttons.GetComponent<Button>();
-                buttonElement.onClick.AddListener(() => GoToLevel(fileName));
-            }
+            string levelName = "Level-" + i;
+            Debug.Log(i);
+            GameObject Buttons = Instantiate(preFabButton, transform);
+            Buttons.GetComponentInChildren<Text>().text = levelName;
+            Debug.Log(Buttons.GetComponentInChildren<Text>().text);
+            Button buttonElement = Buttons.GetComponent<Button>();
+            buttonElement.onClick.AddListener(() => GoToLevel(levelName));
         }
     }
 
