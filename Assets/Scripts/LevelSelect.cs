@@ -11,6 +11,8 @@ public class LevelSelect : MonoBehaviour
     public GameObject preFabButton;
     public Button button;
     public Text ButtonText;
+    public GameObject Canvas;
+    public int positionChange = -330;
    
     // Start is called before the first frame update
     void Start()
@@ -23,12 +25,16 @@ public class LevelSelect : MonoBehaviour
 
             if (!fileName.Contains(".meta"))
             {
-                GameObject Buttons = Instantiate(preFabButton, transform);
-                fileName = fileName.Substring(0, fileName.Length - 6);
+                positionChange += 400;
+
+                fileName = fileName.Substring(0, fileName.Length-6);
                 preFabButton.GetComponentInChildren<Text>().text = fileName;
+                GameObject Buttons = Instantiate(preFabButton, new Vector2(positionChange, 750), Quaternion.identity);
+                Buttons.transform.SetParent(Canvas.transform);
                 Button buttonElement = Buttons.GetComponent<Button>();
                 buttonElement.onClick.AddListener(() => GoToLevel(fileName));
             }
+           
         }
     }
 
