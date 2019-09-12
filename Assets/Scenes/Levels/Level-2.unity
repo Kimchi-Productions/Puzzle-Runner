@@ -1016,7 +1016,7 @@ GameObject:
   - component: {fileID: 2065411119}
   - component: {fileID: 2065411118}
   m_Layer: 0
-  m_Name: BotomCollision
+  m_Name: BottomCollision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
