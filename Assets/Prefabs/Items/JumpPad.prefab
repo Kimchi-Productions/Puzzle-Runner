@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8701200363605656575}
   - component: {fileID: 8701200363605656560}
   - component: {fileID: -7961478986003051745}
-  - component: {fileID: 106381448935801198}
   m_Layer: 0
   m_Name: JumpPad
   m_TagString: CantPickUp
@@ -125,7 +124,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Name: JumpPad
   _Image: {fileID: 7669339166942021809, guid: fde97d8e8e4183947ab67f1233a98a2d, type: 3}
-  canPickup: 0
   jumpForceup: 300
   jumpForceforward: 200
 --- !u!50 &-7961478986003051745
@@ -149,15 +147,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &106381448935801198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8701200363605656561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9af3f3b6aafd747dc95388d4f8f52ee2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
