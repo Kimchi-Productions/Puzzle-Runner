@@ -23,6 +23,7 @@ public class SceneController : MonoBehaviour
     public void Nextlvl()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 1.0f;
     }
 
 }
