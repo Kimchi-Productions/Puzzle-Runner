@@ -23,10 +23,9 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
         }
     }
 
-    public bool canPickup;
     public void OnPickUp()
     {
-        if (canPickup)
+        if (gameObject.tag == "CanPickUp")
         {
             gameObject.SetActive(false);
         }
@@ -38,8 +37,8 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
 
     public void OnDrop()
     {
-        canPickup = false;
-        gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+        gameObject.tag = "CantPickUp";
+        gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
         gameObject.SetActive(true);
         Vector3 pz = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         pz.z = 0;
@@ -48,10 +47,13 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
 
     public float gravityAfterCollision = -1f;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameObject Player = GameObject.FindGameObjectWithTag("Player");
-        Player.GetComponent<Rigidbody2D>().gravityScale = gravityAfterCollision;
+        if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
+        {
+            GameObject Player = GameObject.FindGameObjectWithTag("Player");
+            Player.GetComponent<Rigidbody2D>().gravityScale = gravityAfterCollision;
+        }
 
     }
 

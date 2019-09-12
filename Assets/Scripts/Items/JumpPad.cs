@@ -23,10 +23,11 @@ public class JumpPad : MonoBehaviour, IInventoryItem
         }
     }
 
-    public bool canPickup;
+    
     public void OnPickUp()
     {
-        if(canPickup)
+        
+        if(gameObject.tag == "CanPickUp")
         {
             gameObject.SetActive(false);
         }
@@ -38,8 +39,8 @@ public class JumpPad : MonoBehaviour, IInventoryItem
 
     public void OnDrop()
     {
-        canPickup = false;
-        gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+        gameObject.tag = "CantPickUp";
+        gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
         gameObject.SetActive(true);
         Vector3 pz = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         pz.z = 0;
@@ -48,10 +49,14 @@ public class JumpPad : MonoBehaviour, IInventoryItem
 
     public int jumpForceup;
     public int jumpForceforward;
-    
-    private void OnTriggerEnter2D(Collider2D other)
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForceup);
-        other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * jumpForceforward);
+        if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForceup);
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * jumpForceforward);
+        }
     }
+
 }
