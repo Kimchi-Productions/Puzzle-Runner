@@ -35,7 +35,7 @@ public class Automove : MonoBehaviour
     {
         IInventoryItem item = collision.collider.GetComponent<IInventoryItem>();
 
-        if(item != null)
+        if(item != null && collision.gameObject.tag == "CanPickUp")
         {
             Debug.Log(item);
             inventory.AddItem(item);
