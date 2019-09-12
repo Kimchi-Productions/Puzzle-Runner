@@ -34,7 +34,6 @@ public class Automove : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         IInventoryItem item = collision.collider.GetComponent<IInventoryItem>();
-
         if(item != null && collision.gameObject.tag == "CanPickUp")
         {
             Debug.Log(item);
