@@ -38,7 +38,6 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
     public void OnDrop()
     {
         gameObject.tag = "CantPickUp";
-        gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
         gameObject.SetActive(true);
         Vector3 pz = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         pz.z = 0;
