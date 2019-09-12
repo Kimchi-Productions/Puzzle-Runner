@@ -20,7 +20,11 @@ public class GameOver : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Time.timeScale = 0f;
-        gameoverui.SetActive(true);
+        if (other.gameObject.tag == "Player")
+        {
+            Time.timeScale = 0f;
+            gameoverui.SetActive(true);
+        }
+        
     }
 }
