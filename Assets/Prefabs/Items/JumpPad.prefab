@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8701200363605656560}
   - component: {fileID: -7961478986003051745}
   - component: {fileID: 2341771352392459237}
+  - component: {fileID: -3966795685110913537}
   m_Layer: 0
   m_Name: JumpPad
   m_TagString: CantPickUp
@@ -28,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8701200363605656561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0347006, y: -2.066246, z: 0}
-  m_LocalScale: {x: 0.116257966, y: 0.085293494, z: 2.7191}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.31716776, y: 0.43308067, z: 2.7191}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7669339166942021809, guid: fde97d8e8e4183947ab67f1233a98a2d,
+  m_Sprite: {fileID: 1560765213141802194, guid: 98db6b23efb8f8a4da2fb4e52f33a13b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -97,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Name: JumpPad
-  _Image: {fileID: 7669339166942021809, guid: fde97d8e8e4183947ab67f1233a98a2d, type: 3}
+  _Image: {fileID: 1659505075497378829, guid: 98db6b23efb8f8a4da2fb4e52f33a13b, type: 3}
   jumpForceup: 300
   jumpForceforward: 200
 --- !u!50 &-7961478986003051745
@@ -132,10 +133,29 @@ EdgeCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.69}
+  m_Offset: {x: 0, y: -0.53}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -2.57, y: 0}
-  - {x: 2.57, y: 0}
+  - {x: -1.2521901, y: 0.016375959}
+  - {x: 1.1888205, y: 0.018319786}
+--- !u!95 &-3966795685110913537
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8701200363605656561}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d3e012579619b84b8c57335990eb323, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

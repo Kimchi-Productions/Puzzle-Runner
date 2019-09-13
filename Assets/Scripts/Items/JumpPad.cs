@@ -41,6 +41,7 @@ public class JumpPad : MonoBehaviour, IInventoryItem
     {
         gameObject.tag = "CantPickUp";
         gameObject.SetActive(true);
+      
         Vector3 pz = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         pz.z = 0;
         gameObject.transform.position = pz;
@@ -51,8 +52,12 @@ public class JumpPad : MonoBehaviour, IInventoryItem
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "floor"){
+            gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        }
         if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
+            gameObject.GetComponent<Animator>().enabled = true;
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForceup);
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * jumpForceforward);
         }

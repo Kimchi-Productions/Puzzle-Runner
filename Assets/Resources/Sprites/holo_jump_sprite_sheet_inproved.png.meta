@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 98db6b23efb8f8a4da2fb4e52f33a13b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2653161824788383171
+    second: holo_jump_sprite_sheet_inproved_0
+  - first:
+      213: -7704379528799410799
+    second: holo_jump_sprite_sheet_inproved_1
+  - first:
+      213: 8392518903552445596
+    second: holo_jump_sprite_sheet_inproved_2
+  - first:
+      213: 1560765213141802194
+    second: holo_jump_sprite_sheet_inproved_3
+  - first:
+      213: 5068285258643188218
+    second: holo_jump_sprite_sheet_inproved_4
+  - first:
+      213: 1659505075497378829
+    second: holo_jump_sprite_sheet_inproved_5
+  - first:
+      213: 7036991182237210771
+    second: holo_jump_sprite_sheet_inproved_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +117,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: holo_jump_sprite_sheet_inproved_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 205
+        width: 200
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b5f5089173738429d0be650237ab29
+      internalID: 2653161824788383171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holo_jump_sprite_sheet_inproved_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 212
+        width: 200
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68051437d17992418a681dfd140b838
+      internalID: -7704379528799410799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holo_jump_sprite_sheet_inproved_2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 220
+        width: 200
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7818b096cc762014c9ece6dec26ef5a5
+      internalID: 8392518903552445596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holo_jump_sprite_sheet_inproved_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 227
+        width: 200
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99f7a8d977abbc4c8788cd80937e732
+      internalID: 1560765213141802194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holo_jump_sprite_sheet_inproved_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 6
+        width: 200
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fe8388328ec0e49b0e6939ab4d8636
+      internalID: 5068285258643188218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holo_jump_sprite_sheet_inproved_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 13
+        width: 200
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1777590ffb4a847b1eacfefb73d864
+      internalID: 1659505075497378829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holo_jump_sprite_sheet_inproved_6
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 20
+        width: 200
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651a851579389404d976b559209c6321
+      internalID: 7036991182237210771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
