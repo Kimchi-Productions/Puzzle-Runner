@@ -48,9 +48,7 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "floor"){
-            gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
-        }
+
         if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
             GameObject Player = GameObject.FindGameObjectWithTag("Player");
