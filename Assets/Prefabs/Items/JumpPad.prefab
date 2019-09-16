@@ -135,11 +135,11 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.53}
+  m_Offset: {x: 0, y: -0.32}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.2521901, y: 0.016375959}
-  - {x: 1.1888205, y: 0.018319786}
+  - {x: -0.9680695, y: -0.0044317544}
+  - {x: 0.94258285, y: -0.0024878383}
 --- !u!95 &-3966795685110913537
 Animator:
   serializedVersion: 3
