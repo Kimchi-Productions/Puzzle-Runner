@@ -48,7 +48,6 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
             GameObject Player = GameObject.FindGameObjectWithTag("Player");
