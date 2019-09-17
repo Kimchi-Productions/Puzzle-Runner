@@ -12,15 +12,31 @@ public class LevelSelect : MonoBehaviour
     public Button button;
     public Text ButtonText;
     public int levelAmount;
+    public Sprite lvl1;
+    public Sprite lvl2;
+    public Sprite lvl3;
    
     void Start()
     {
+        Sprite buttonlvlimage = null;
         for (int i = 1; i <= levelAmount; i++)
         {
+            if (i == 1)
+            {
+                buttonlvlimage = lvl1;
+            }
+            if (i == 2)
+            {
+                buttonlvlimage = lvl2;
+            }
+            if (i == 3)
+            {
+                buttonlvlimage = lvl3;
+            }
             string levelName = "Level-" + i;
             Debug.Log(i);
             GameObject Buttons = Instantiate(preFabButton, transform);
-            Buttons.GetComponentInChildren<Text>().text = levelName;
+            Buttons.GetComponent<Image>().sprite = buttonlvlimage;
             Debug.Log(Buttons.GetComponentInChildren<Text>().text);
             Button buttonElement = Buttons.GetComponent<Button>();
             buttonElement.onClick.AddListener(() => GoToLevel(levelName));
