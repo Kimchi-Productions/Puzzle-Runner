@@ -52,6 +52,7 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
         {
             GameObject Player = GameObject.FindGameObjectWithTag("Player");
             Player.GetComponent<Rigidbody2D>().gravityScale = gravityAfterCollision;
+            Player.transform.Rotate(900, 0, 0);
         }
 
     }
