@@ -15,7 +15,8 @@ public class LevelSelect : MonoBehaviour
    
     void Start()
     {
-        for (int i = 1; i <= levelAmount; i++)
+        int levelAt = PlayerPrefs.GetInt("levelAt", 2);
+        for (int i = 0; i <= levelAmount; i++)
         {
             string levelName = "Level-" + i;
             Debug.Log(i);
@@ -24,7 +25,13 @@ public class LevelSelect : MonoBehaviour
             Debug.Log(Buttons.GetComponentInChildren<Text>().text);
             Button buttonElement = Buttons.GetComponent<Button>();
             buttonElement.onClick.AddListener(() => GoToLevel(levelName));
+
+            if (i + 1 > levelAt)
+            {
+                buttonElement.interactable = false; 
+            }
         }
+
     }
 
     public void GoToLevel(string fileName)
