@@ -16,7 +16,7 @@ public class LevelSelect : MonoBehaviour
     void Start()
     {
         int levelAt = PlayerPrefs.GetInt("levelAt", 2);
-        for (int i = 0; i <= levelAmount; i++)
+        for (int i = 1; i <= levelAmount; i++)
         {
             string levelName = "Level-" + i;
             Debug.Log(i);
