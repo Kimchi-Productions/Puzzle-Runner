@@ -1074,6 +1074,26 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1328108909}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1328108914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3269664784136415250, guid: d915fb123d8bed2419a5785fbd4ca030,
+    type: 3}
+  m_PrefabInstance: {fileID: 1328108909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1328108915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328108914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d101c4a682c3547ac353f4c6d074e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuPrefab: {fileID: 5398728380812346932, guid: 6de03ea9732926c46994bcf983a48f29,
+    type: 3}
 --- !u!1001 &1362807739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1220,6 +1240,11 @@ PrefabInstance:
       propertyPath: inventory
       value: 
       objectReference: {fileID: 1328108910}
+    - target: {fileID: -2776697095445213290, guid: a12b3de28d60a364ea1ca929003ffa4d,
+        type: 3}
+      propertyPath: Speed_X
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a12b3de28d60a364ea1ca929003ffa4d, type: 3}
 --- !u!1 &1548197949 stripped
@@ -1228,6 +1253,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1548197948}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1548197950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548197949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a523d6f71e028449fff72c5c58a837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options:
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    sprite: {fileID: 5068285258643188218, guid: 98db6b23efb8f8a4da2fb4e52f33a13b,
+      type: 3}
+    title: jump
+  - color: {r: 0.05271244, g: 0, b: 1, a: 1}
+    sprite: {fileID: -3202323306420804064, guid: 10646b0ee8178bb49a7524e87ee1b1e5,
+      type: 3}
+    title: gravity
 --- !u!1001 &1737687122
 PrefabInstance:
   m_ObjectHideFlags: 0
