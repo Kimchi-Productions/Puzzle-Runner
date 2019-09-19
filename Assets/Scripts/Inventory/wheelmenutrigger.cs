@@ -13,6 +13,7 @@ public class wheelmenutrigger : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             radialmenuspawner.ins.SpawnMenu(Input.mousePosition);
+            Debug.Log(Input.mousePosition);
             HUD.transform.Find("Inventory").GetComponent<Inventory>().clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
     }
