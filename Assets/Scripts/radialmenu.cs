@@ -27,15 +27,7 @@ public class radialmenu : MonoBehaviour
     void Update(){
         if (Input.GetMouseButtonUp(0))
         {
-            if (selected.title == "jump")
-            {
-                //spawn halo jump
-                Debug.Log(selected.title);
-            }
-            else
-            {
-                //instantiate gravity
-            }
+            Debug.Log(selected.title);
             Destroy(gameObject);
         }
     }
