@@ -1,0 +1,1051 @@
+fileFormatVersion: 2
+guid: 51f37c27a94550e4d91f2ab35437a56f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7769944970098783878
+    second: level number sheet_0
+  - first:
+      213: -8564059355199164646
+    second: level number sheet_2
+  - first:
+      213: -5973407509393460770
+    second: level number sheet_3
+  - first:
+      213: -8157121083611470559
+    second: level number sheet_5
+  - first:
+      213: -8938174239558782181
+    second: level number sheet_6
+  - first:
+      213: -4617730221749247717
+    second: level number sheet_8
+  - first:
+      213: -1003556178730132618
+    second: level number sheet_9
+  - first:
+      213: 7345366866511173676
+    second: level number sheet_11
+  - first:
+      213: -3386325272422340738
+    second: level number sheet_12
+  - first:
+      213: 2165851391822682404
+    second: level number sheet_14
+  - first:
+      213: -8533467497909485497
+    second: level number sheet_15
+  - first:
+      213: 4383010599412404680
+    second: level number sheet_17
+  - first:
+      213: 2183560522679817342
+    second: level number sheet_18
+  - first:
+      213: -5045580641370257354
+    second: level number sheet_20
+  - first:
+      213: -1425456204811264750
+    second: level number sheet_21
+  - first:
+      213: 8306630551401182299
+    second: level number sheet_23
+  - first:
+      213: -3536570640139452550
+    second: level number sheet_24
+  - first:
+      213: 4168916626045560152
+    second: level number sheet_26
+  - first:
+      213: -8527364347026338349
+    second: level number sheet_27
+  - first:
+      213: 34743876505026792
+    second: level number sheet_29
+  - first:
+      213: -730946070703105765
+    second: level number sheet_30
+  - first:
+      213: 5096792229280901808
+    second: level number sheet_32
+  - first:
+      213: -6396951681973716450
+    second: level number sheet_33
+  - first:
+      213: 5601313009371184645
+    second: level number sheet_35
+  - first:
+      213: 1535977740222813986
+    second: level number sheet_36
+  - first:
+      213: -3139820587649374423
+    second: level number sheet_38
+  - first:
+      213: 1686589919245475858
+    second: level number sheet_39
+  - first:
+      213: -6643697732374622580
+    second: level number sheet_41
+  - first:
+      213: 4691740376479788920
+    second: level number sheet_42
+  - first:
+      213: 7183046916106460183
+    second: level number sheet_44
+  - first:
+      213: -4436760732643377518
+    second: level number sheet_46
+  - first:
+      213: -3659841075944293721
+    second: level number sheet_47
+  - first:
+      213: -1097728989434838493
+    second: level number sheet_49
+  - first:
+      213: 3848361039526449574
+    second: level number sheet_50
+  - first:
+      213: -5011112576006972842
+    second: level number sheet_52
+  - first:
+      213: -3614484424730284835
+    second: level number sheet_53
+  - first:
+      213: 2190601497862526114
+    second: level number sheet_55
+  - first:
+      213: 8589337484771517864
+    second: level number sheet_56
+  - first:
+      213: 8830977398224699299
+    second: level number sheet_58
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: level number sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1105
+        width: 496
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36292cef323d2d645bc085dc944dcc13
+      internalID: 7769944970098783878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_2
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1118
+        width: 496
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03051d94299cb764ca70a5362fd9dd89
+      internalID: -8564059355199164646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_3
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1113
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c29153fa9996a449b8cd75ccfaf562
+      internalID: -5973407509393460770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8608fd02b4bf26741a8240c7643595e0
+      internalID: -8157121083611470559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 985
+        width: 496
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f810112d44012be4a8bcb8604edfdd81
+      internalID: -8938174239558782181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_8
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 998
+        width: 496
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332103a9bdc9db24c9738f4bc32611f5
+      internalID: -4617730221749247717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_9
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 993
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b856cdfea1c404bb09d057eafa6f4d
+      internalID: -1003556178730132618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 980
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6216ce162377b343b54ce14c8aa82f4
+      internalID: 7345366866511173676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 864
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658523f7cc0a69a4f970cd75dbbb4dbf
+      internalID: -3386325272422340738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_14
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 878
+        width: 496
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd730ee4ecdb9b4298fb944787166bd
+      internalID: 2165851391822682404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_15
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 873
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b752b962ca5cd342bee8411615109a8
+      internalID: -8533467497909485497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 860
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7b80265926783448f29685c1fe0226
+      internalID: 4383010599412404680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 744
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fed58b40adf20c45a8233a03c993c65
+      internalID: 2183560522679817342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_20
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 758
+        width: 496
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd952779ddf27f44966dbb0a56ece02
+      internalID: -5045580641370257354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_21
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 753
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb985d6b0e23be1469a4586cfda2cc12
+      internalID: -1425456204811264750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_23
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 740
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be2c4d739bf22640b747c9c690d7b66
+      internalID: 8306630551401182299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_24
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 624
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4dee6337f5d9243809b2fba14714d0
+      internalID: -3536570640139452550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_26
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 637
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0f311b400a0c44c86861608b03e2aa
+      internalID: 4168916626045560152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_27
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 633
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0bdf2a2d6110f4c94154ee407bbb02
+      internalID: -8527364347026338349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 620
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a073e48bc617e441a19a48c9ba5e6a7
+      internalID: 34743876505026792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 504
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05638ad639b41ed4d9df02c1bab7fcd3
+      internalID: -730946070703105765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_32
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 517
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf7be706d81a4d42af8b3a4a77acfa9
+      internalID: 5096792229280901808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_33
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 513
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b28b4c0343feea49a99664fa5234874
+      internalID: -6396951681973716450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_35
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 500
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa360806236fd2245b56a74567786dca
+      internalID: 5601313009371184645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_36
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 384
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a3f69b2bd893843bfc2e988306c326
+      internalID: 1535977740222813986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_38
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 397
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643f53554c658654eb6fa00e3a77518b
+      internalID: -3139820587649374423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_39
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 393
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafe4bdd8de94bc4184b08d6f6dc68a3
+      internalID: 1686589919245475858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_41
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 380
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e089843a369f31d4bbe66fe6bd88dee1
+      internalID: -6643697732374622580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_42
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 264
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5f5bea61985bd448642dd295f259ce
+      internalID: 4691740376479788920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_44
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 277
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2873d55689889449ef62fa7cee02ba
+      internalID: 7183046916106460183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_46
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 260
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1713bf65afb4f7459d69cf8bf609fa0
+      internalID: -4436760732643377518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_47
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 144
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e29309216f76d740be0b074a06d60ad
+      internalID: -3659841075944293721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_49
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 157
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a76621de774b64f85eecea77ecd297
+      internalID: -1097728989434838493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_50
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 153
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d476c7151debb5047a903493d885c199
+      internalID: 3848361039526449574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_52
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 140
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcdb60d2b8c42a44ba4e8e5c9eee464
+      internalID: -5011112576006972842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_53
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 24
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7313bff0f43fd0f4ba3b20308f58bc81
+      internalID: -3614484424730284835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_55
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 37
+        width: 496
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99779c09307e0a14f807bd350b2bf6e4
+      internalID: 2190601497862526114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_56
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 33
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec129a81abfd06b4fb91c48dcf861806
+      internalID: 8589337484771517864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level number sheet_58
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 20
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8fb94f8fce8dc459159f2c4d8cb47a
+      internalID: 8830977398224699299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

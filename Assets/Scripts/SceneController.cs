@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
 
+    public int nextSceneLoaded;
+
     public void GotoMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
@@ -22,7 +24,12 @@ public class SceneController : MonoBehaviour
     }
     public void Nextlvl()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        nextSceneLoaded = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(nextSceneLoaded);
+        if(nextSceneLoaded > PlayerPrefs.GetInt("levelAt"))
+        {
+            PlayerPrefs.SetInt("levelAt", nextSceneLoaded);
+        }
         Time.timeScale = 1.0f;
     }
 

@@ -7,6 +7,9 @@ TagManager:
   - CanPickUp
   - CantPickUp
   - floor
+  - music
+  - Projectile
+  - Shield
   layers:
   - Default
   - TransparentFX
