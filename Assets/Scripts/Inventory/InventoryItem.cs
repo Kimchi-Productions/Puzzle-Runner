@@ -6,10 +6,11 @@ public interface IInventoryItem
 {
     string Name { get; }
     Sprite Image { get; }
+    Color Color { get; }
 
     void OnPickUp();
 
-    void OnDrop();
+    void OnDrop(Vector3 spawnPos);
 }
 
 public class InventoryEventArgs : System.EventArgs

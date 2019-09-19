@@ -92,7 +92,7 @@ MonoBehaviour:
   circle: {fileID: 3338755457122686215}
   icon: {fileID: 3714702991013392847}
   title: 
-  myMenu: {fileID: 0}
+  HUD: {fileID: 3269664784136415250, guid: d915fb123d8bed2419a5785fbd4ca030, type: 3}
 --- !u!1 &6388422451564467358
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,11 +180,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 727855126760635280}
     m_Modifications:
-    - target: {fileID: 3457165972715396706, guid: d60aae46930938c46ad32dfe66892a94,
-        type: 3}
-      propertyPath: m_Name
-      value: Panel
-      objectReference: {fileID: 0}
     - target: {fileID: 8715355381375823084, guid: d60aae46930938c46ad32dfe66892a94,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -289,6 +284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3457165972715396706, guid: d60aae46930938c46ad32dfe66892a94,
+        type: 3}
+      propertyPath: m_Name
+      value: Panel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d60aae46930938c46ad32dfe66892a94, type: 3}

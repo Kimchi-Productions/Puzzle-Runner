@@ -2834,6 +2834,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SLOTS: 3
+  buttonPrefab: {fileID: 3178445570960113282, guid: 5a37b89735381d54c81f7934f9fc1787,
+    type: 3}
+  selected: {fileID: 0}
+  HUD: {fileID: 3269664784136415250}
+  radialmenu: {fileID: 5398728380812346932, guid: 6de03ea9732926c46994bcf983a48f29,
+    type: 3}
 --- !u!114 &3269664785266694748
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,7 +15,6 @@ public class HUD : MonoBehaviour
 
         foreach (GameObject item in startItems)
         {
-            Debug.Log(item.GetComponent<IInventoryItem>());
             GameObject newItem = Instantiate(item, new Vector3(0, 0, -10), Quaternion.identity);
             Inventory.AddItem(newItem.GetComponent<IInventoryItem>());
         }
@@ -25,7 +24,6 @@ public class HUD : MonoBehaviour
 
     private void Inventory_ItemAdded(object sender, InventoryEventArgs e)
     {
-        Debug.Log("Item Added to HUD");
         foreach (Transform Slot in inventoryPanel)
         {
             Image image = Slot.GetChild(0).GetComponent<Image>();

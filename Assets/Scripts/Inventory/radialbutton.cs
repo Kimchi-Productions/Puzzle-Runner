@@ -9,22 +9,22 @@ public class radialbutton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public Image circle;
     public Image icon;
     public string title;
-    public radialmenu myMenu;
+    public GameObject HUD;
+    public IInventoryItem inventoryItem;
 
     Color defaultColor;
 
-    // Start is called before the first frame update
     public void OnPointerEnter (PointerEventData eventData)
     {
-        myMenu.selected = this;
+        GameObject.Find("Inventory").GetComponent<Inventory>().Selected = this;
         defaultColor = circle.color;
         circle.color = Color.white;
     }
 
-    // Update is called once per frame
     public void OnPointerExit (PointerEventData eventData)
     {
-        myMenu.selected = null;
+        Debug.Log("Deselect item");
+        GameObject.Find("Inventory").GetComponent<Inventory>().Selected = null;
         circle.color = defaultColor;
     }
 }

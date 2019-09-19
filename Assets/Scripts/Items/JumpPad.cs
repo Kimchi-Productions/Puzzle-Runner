@@ -23,7 +23,17 @@ public class JumpPad : MonoBehaviour, IInventoryItem
         }
     }
 
-    
+    public Color _Color = new Color(1, 1, 1, 1);
+
+    public Color Color
+    {
+        get
+        {
+            return _Color;
+        }
+    }
+
+
     public void OnPickUp()
     {
         
@@ -37,14 +47,15 @@ public class JumpPad : MonoBehaviour, IInventoryItem
         }
     }
 
-    public void OnDrop()
+    public void OnDrop(Vector3 spawnPos)
     {
         gameObject.tag = "CantPickUp";
         gameObject.SetActive(true);
       
-        Vector3 pz = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 pz = spawnPos;
         pz.z = 0;
         gameObject.transform.position = pz;
+        GameObject.Find("Inventory").GetComponent<Inventory>().RemoveItem(this);
     }
 
     public int jumpForceup;

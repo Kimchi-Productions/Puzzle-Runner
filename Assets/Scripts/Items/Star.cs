@@ -7,6 +7,5 @@ public class Star : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         gameObject.SetActive(false);
-        Debug.Log("Picked up Star");
     }
 }

@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Name: JumpPad
   _Image: {fileID: 1659505075497378829, guid: 98db6b23efb8f8a4da2fb4e52f33a13b, type: 3}
+  _Color: {r: 1, g: 0, b: 0, a: 1}
   jumpForceup: 300
   jumpForceforward: 200
 --- !u!50 &-7961478986003051745
@@ -133,7 +134,7 @@ EdgeCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.32}
   m_EdgeRadius: 0
