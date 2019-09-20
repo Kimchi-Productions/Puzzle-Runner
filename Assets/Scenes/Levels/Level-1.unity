@@ -2273,6 +2273,29 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5528585337558632787, guid: 05d5370a0d335634b9a3bf483f3138ec,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 91.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528585337558632787, guid: 05d5370a0d335634b9a3bf483f3138ec,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 371.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528585337558632788, guid: 05d5370a0d335634b9a3bf483f3138ec,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Your goal is to get your character to the end of the level.
+
+        Hold down where you want to place an item to open the item menu.
+
+        While holding down, move your finger to the item you want to place and then
+        release!
+
+
+        For now, place a jump pad near the edge below. (Touch to start)'
+      objectReference: {fileID: 0}
     - target: {fileID: 3479950089869927902, guid: 05d5370a0d335634b9a3bf483f3138ec,
         type: 3}
       propertyPath: m_LocalPosition.z
