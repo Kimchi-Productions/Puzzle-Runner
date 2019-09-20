@@ -62,9 +62,6 @@ public class JumpPad : MonoBehaviour, IInventoryItem
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "floor"){
-            gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
-        }
         if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
             gameObject.GetComponent<Animator>().enabled = true;
