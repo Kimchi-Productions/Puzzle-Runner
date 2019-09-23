@@ -2613,6 +2613,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f42c6528c4e645544b6b97abfbe2ab92, type: 3}
+--- !u!1 &1648208742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7626959994659245847, guid: f42c6528c4e645544b6b97abfbe2ab92,
+    type: 3}
+  m_PrefabInstance: {fileID: 1648208741}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1990245414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,7 +2840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2c19fad4b31acc43a14c50c8291b289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameoverui: {fileID: 0}
+  gameoverui: {fileID: 1648208742}
 --- !u!61 &2065411119
 BoxCollider2D:
   m_ObjectHideFlags: 0
