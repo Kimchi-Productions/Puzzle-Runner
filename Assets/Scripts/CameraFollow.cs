@@ -18,8 +18,10 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         float targetObjectX = targetObject.transform.position.x;
+        float targetObjectY = targetObject.transform.position.y;
         Vector3 newCameraPosition = transform.position;
         newCameraPosition.x = targetObjectX + distanceToTarget - 1;
+        newCameraPosition.y = targetObjectY + distanceToTarget - 3.5f;
         transform.position = newCameraPosition;
 
     }

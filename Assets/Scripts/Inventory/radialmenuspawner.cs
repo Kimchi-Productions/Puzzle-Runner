@@ -16,7 +16,9 @@ public class radialmenuspawner : MonoBehaviour
     {   
         radialmenu newMenu = Instantiate(menuPrefab) as radialmenu;
         newMenu.transform.SetParent (transform, false);
-        newMenu.GetComponent<RectTransform>().anchoredPosition = mousePosition;
+        newMenu.GetComponent<RectTransform>().anchorMax = Camera.main.ScreenToViewportPoint(new Vector2(mousePosition.x, mousePosition.y));
+        newMenu.GetComponent<RectTransform>().anchorMin = Camera.main.ScreenToViewportPoint(new Vector2(mousePosition.x, mousePosition.y));
         transform.Find("Inventory").GetComponent<Inventory>().SpawnButtons(newMenu);
+
     }
 }
