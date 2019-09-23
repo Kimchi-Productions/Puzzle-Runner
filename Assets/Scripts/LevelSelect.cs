@@ -12,10 +12,11 @@ public class LevelSelect : MonoBehaviour
     public Button button;
     public Text ButtonText;
     public int levelAmount;
-   
+
     void Start()
     {
         int levelAt = PlayerPrefs.GetInt("levelAt", 2);
+
         for (int i = 1; i <= levelAmount; i++)
         {
             string levelName = "Level-" + i;
@@ -28,9 +29,9 @@ public class LevelSelect : MonoBehaviour
 
             if (i + 1 > levelAt)
             {
-                buttonElement.interactable = false; 
+                buttonElement.interactable = false;
             }
-        }
+        }   
 
     }
 
