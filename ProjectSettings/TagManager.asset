@@ -10,6 +10,8 @@ TagManager:
   - music
   - Projectile
   - Shield
+  - ButtonAudio
+  - startbutton
   layers:
   - Default
   - TransparentFX
