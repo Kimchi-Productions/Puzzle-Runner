@@ -110,6 +110,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7597759181657850150}
+  - {fileID: 8871259806525246451}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -210,5 +211,98 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 682011284224475455}
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 0f5818bcda1abe3439b79a6fac310d45,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &4990612677855212625
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8245592244425563814}
+    m_Modifications:
+    - target: {fileID: 1317844874694929284, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -960
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -640.67365
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.210527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4ddde2115562d948bbb9d41ee871394, type: 3}
+--- !u!4 &8871259806525246451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
+    type: 3}
+  m_PrefabInstance: {fileID: 4990612677855212625}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &682011284224475455 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5491236412120167790, guid: f4ddde2115562d948bbb9d41ee871394,
+    type: 3}
+  m_PrefabInstance: {fileID: 4990612677855212625}
+  m_PrefabAsset: {fileID: 0}
