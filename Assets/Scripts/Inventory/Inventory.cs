@@ -23,7 +23,6 @@ public class Inventory : MonoBehaviour
     public void SpawnButtons(radialmenu newMenu)
     {
         menuInstance = newMenu;
-        //Spawn radial menu for items in the item array, change to existing inventory system?
 
         for (int i = 0; i < mItems.Count; i++)
         {
@@ -31,9 +30,10 @@ public class Inventory : MonoBehaviour
             radialbutton newButton = Instantiate(buttonPrefab) as radialbutton;
             newButton.transform.SetParent(newMenu.transform, false);
             float theta = ( 2* Mathf.PI / mItems.Count) *i;
+            Debug.Log(theta);
             float xPos = Mathf.Sin(theta);
             float yPos = Mathf.Cos(theta);
-            newButton.transform.localPosition = new Vector2 (xPos, yPos)* 70f;
+            newButton.transform.localPosition = new Vector2 (xPos, yPos) * 150f;
             newButton.circle.color = mItems[i].Color;
             newButton.icon.sprite = mItems[i].Image;
             newButton.title = mItems[i].Name;
@@ -43,7 +43,6 @@ public class Inventory : MonoBehaviour
 
     void Update()
     {
-        //TODO when no item selected, do nothing
         if (Input.GetMouseButtonUp(0) && this.Selected != null)
         {
             Debug.Log(Selected.title);

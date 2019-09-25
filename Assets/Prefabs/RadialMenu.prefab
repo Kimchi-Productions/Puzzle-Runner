@@ -32,7 +32,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -51,4 +51,4 @@ MonoBehaviour:
   buttonPrefab: {fileID: 3178445570960113282, guid: 5a37b89735381d54c81f7934f9fc1787,
     type: 3}
   selected: {fileID: 0}
-  HUD: {fileID: 3269664784136415250, guid: d915fb123d8bed2419a5785fbd4ca030, type: 3}
+  HUD: {fileID: 6071231710737293990, guid: 114595c6d0f944f4792a3a70c5dd67bd, type: 3}

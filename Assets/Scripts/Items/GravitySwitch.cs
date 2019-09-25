@@ -57,11 +57,12 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
 
     public float gravityAfterCollision = -1f;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
             GameObject Player = GameObject.FindGameObjectWithTag("Player");
+            gameObject.GetComponent<AudioSource>().Play();
             Player.GetComponent<Rigidbody2D>().gravityScale = gravityAfterCollision;
             Player.transform.Rotate(900, 0, 0);
         }
