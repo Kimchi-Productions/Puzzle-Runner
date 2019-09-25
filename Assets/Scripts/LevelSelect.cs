@@ -20,7 +20,7 @@ public class LevelSelect : MonoBehaviour
         int levelAt = PlayerPrefs.GetInt("levelAt", 2);
         SaveSystem.LoadStar();
         
-        for (int i = 0; i <= levelAmount; i++)
+        for (int i = 0; i <= SceneManager.sceneCountInBuildSettings - 3; i++)
         {
             
             if (i > 0)
