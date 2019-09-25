@@ -8,6 +8,7 @@ public class StarManagement : MonoBehaviour
 
     public static List<Star> starList = new List<Star>();
     public static int currentLevel;
+    public int counter = 1;
 
     public void Start()
     {
@@ -22,35 +23,42 @@ public class StarManagement : MonoBehaviour
             Debug.Log("LAAD LIJST!");
         }
         
-        currentLevel = SceneManager.GetActiveScene().buildIndex + 1;
+        currentLevel = SceneManager.GetActiveScene().buildIndex -1;
 
     }
 
     public void fillList()
     {
-        for (int i = 0; i <= 3; i++)
+        for (int i = 0; i < 2; i++)
         {
-            starList.Add(new Star("Level-" + i, currentLevel + i, 10));
+
+            if(i > 0)
+            {
+                counter++;
+            }
+
+            starList.Add(new Star("Level-" + counter, currentLevel + i, 0));
         }
+
         SaveSystem.SaveStar();
+
     }
 
-    static public void addStar(int getActiveLevel)
+    static public void addStar(int getActiveLevel, int addedStars)
     {
         SaveSystem.LoadStar();
 
         foreach (Star star in starList)
         {
-            Debug.Log("Heyo " + currentLevel + "heyo : " + getActiveLevel);
 
-            if (currentLevel == getActiveLevel)
+            if (star.level == getActiveLevel)
             {
-                star.amountOfStars += 1;
+                star.amountOfStars = addedStars;
                 SaveSystem.SaveStar();
             }
-             
-            Debug.Log("amount of stars" + star.amountOfStars);
+
         }
+
     }
 
 }

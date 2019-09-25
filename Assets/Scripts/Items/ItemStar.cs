@@ -5,18 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ItemStar : MonoBehaviour
 {
-    //public StarManagement starManagement;
-    static public int getActiveLevel;
-
-    public void Start()
-    {
-        getActiveLevel = SceneManager.GetActiveScene().buildIndex;
-    }
+    static public bool starPickedUp = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        StarManagement.addStar(getActiveLevel);
-        Debug.Log("DIT IS LEVEL: " + getActiveLevel);
+        starPickedUp = true;
         gameObject.SetActive(false);
     }
 }
+    

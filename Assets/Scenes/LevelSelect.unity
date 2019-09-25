@@ -526,8 +526,8 @@ GameObject:
   - component: {fileID: 1266483491}
   - component: {fileID: 1266483494}
   - component: {fileID: 1266483493}
-  - component: {fileID: 1266483492}
   - component: {fileID: 1266483495}
+  - component: {fileID: 1266483492}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -566,11 +566,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46e765564d82d4e599583725acee37f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  preFabButton: {fileID: 8499513497715198632, guid: e803449b09a874c818de94262b88a58c,
+  preFabButton: {fileID: 2439509478231777082, guid: f130bb5a9c02d4e58a5d62770b444310,
     type: 3}
   button: {fileID: 0}
   ButtonText: {fileID: 0}
   levelAmount: 3
+  TextList: []
+  buttonList: []
+  Buttons: {fileID: 0}
+  starText: []
+  counter: 1
 --- !u!114 &1266483493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,12 +621,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266483490}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 388f505cb31bb4829b0b8adde96a884e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentLevel: 0
+  counter: 1
 --- !u!1 &1485810395
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,7 +875,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 642362803}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1147,6 +1152,11 @@ MonoBehaviour:
   button: {fileID: 0}
   ButtonText: {fileID: 0}
   levelAmount: 4
+  TextList: []
+  buttonList: []
+  Buttons: {fileID: 0}
+  starText: []
+  counter: 1
 --- !u!114 &1827704061
 MonoBehaviour:
   m_ObjectHideFlags: 0

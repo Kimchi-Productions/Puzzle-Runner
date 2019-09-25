@@ -12,8 +12,6 @@ public class SaveSystem
         FileStream stream = new FileStream("savedStars.dat", FileMode.Create);
         formatter.Serialize(stream, StarManagement.starList);
         stream.Close();
-        Debug.Log("Save Star");
-
     }
 
     public static void LoadStar()
