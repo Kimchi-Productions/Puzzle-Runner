@@ -19,7 +19,7 @@ public class StarManagement : MonoBehaviour
 		Debug.Log("Level Count: " + getLevels);
 
 
-		if (!System.IO.File.Exists("savedStars.dat"))
+		if (!System.IO.File.Exists((Application.persistentDataPath + "/savedStars.dat")))
         {
             fillList();
             Debug.Log("VUL LIJST");
