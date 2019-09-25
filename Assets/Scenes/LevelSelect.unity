@@ -566,12 +566,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46e765564d82d4e599583725acee37f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  preFabButton: {fileID: 2439509478231777082, guid: f130bb5a9c02d4e58a5d62770b444310,
+  preFabButton: {fileID: 8499513497715198632, guid: e803449b09a874c818de94262b88a58c,
     type: 3}
   button: {fileID: 0}
   ButtonText: {fileID: 0}
   levelAmount: 2
-  TextList: []
   Buttons: {fileID: 0}
   starText: []
   counter: 1
@@ -609,7 +608,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 150, y: 150}
+  m_CellSize: {x: 200, y: 200}
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -1151,7 +1150,6 @@ MonoBehaviour:
   button: {fileID: 0}
   ButtonText: {fileID: 0}
   levelAmount: 4
-  TextList: []
   Buttons: {fileID: 0}
   starText: []
   counter: 1

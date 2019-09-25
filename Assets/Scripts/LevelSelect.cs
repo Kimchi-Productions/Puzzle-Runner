@@ -35,7 +35,7 @@ public class LevelSelect : MonoBehaviour
             buttonElement.onClick.AddListener(() => GoToLevel(levelName));
             starText = GameObject.FindGameObjectsWithTag("ShowStars");
             starText[i].GetComponent<Text>().text = "" + StarManagement.starList[i].amountOfStars;
-            
+
             if (i + 1 > levelAt)
             {
                buttonElement.interactable = false;
