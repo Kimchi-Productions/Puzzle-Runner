@@ -1523,6 +1523,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3797093507282266448, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: SLOTS
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3805432748298614900, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: startItems.Array.size
@@ -1532,7 +1537,7 @@ PrefabInstance:
         type: 3}
       propertyPath: startItems.Array.data[0]
       value: 
-      objectReference: {fileID: 8701200363605656561, guid: 6802d24e48c714a4e867d91ba25ba57f,
+      objectReference: {fileID: 8701200363605656561, guid: e4106ac68fa8c6a4abbd67029e41842a,
         type: 3}
     - target: {fileID: 3805432748298614900, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}

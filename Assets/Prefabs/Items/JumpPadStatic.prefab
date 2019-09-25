@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3003b4873411b1144bcc9193d476c62d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Name: JumpPad
+  _Name: JumpPadStatic
   _Image: {fileID: 5436179192321583990, guid: 43941316445320e4f80e153669868bce, type: 3}
   _Color: {r: 1, g: 0, b: 0, a: 1}
   jumpForceup: 300
