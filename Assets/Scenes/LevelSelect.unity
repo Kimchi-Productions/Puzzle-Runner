@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -570,9 +570,8 @@ MonoBehaviour:
     type: 3}
   button: {fileID: 0}
   ButtonText: {fileID: 0}
-  levelAmount: 3
+  levelAmount: 2
   TextList: []
-  buttonList: []
   Buttons: {fileID: 0}
   starText: []
   counter: 1
@@ -1153,7 +1152,6 @@ MonoBehaviour:
   ButtonText: {fileID: 0}
   levelAmount: 4
   TextList: []
-  buttonList: []
   Buttons: {fileID: 0}
   starText: []
   counter: 1

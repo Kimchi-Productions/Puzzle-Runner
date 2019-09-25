@@ -11,7 +11,6 @@ public class LevelSelect : MonoBehaviour
     public Button button;
     public Text ButtonText;
     public int levelAmount = 2;
-    public List<Text> TextList = new List<Text>();
     public GameObject Buttons;
     public GameObject[] starText;
     public int counter = 1;
@@ -19,13 +18,12 @@ public class LevelSelect : MonoBehaviour
     void Start()
     {
         int levelAt = PlayerPrefs.GetInt("levelAt", 2);
-
         SaveSystem.LoadStar();
-
+        
         for (int i = 0; i <= levelAmount; i++)
         {
-
-            if(i > 0)
+            
+            if (i > 0)
             {
                 counter++;
             }
@@ -37,7 +35,7 @@ public class LevelSelect : MonoBehaviour
             buttonElement.onClick.AddListener(() => GoToLevel(levelName));
             starText = GameObject.FindGameObjectsWithTag("ShowStars");
             starText[i].GetComponent<Text>().text = "" + StarManagement.starList[i].amountOfStars;
-
+            
             if (i + 1 > levelAt)
             {
                buttonElement.interactable = false;
