@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,10 +10,16 @@ public class StarManagement : MonoBehaviour
     public static List<Star> starList = new List<Star>();
     public static int currentLevel;
     public int counter = 1;
+	public int getLevels;
 
     public void Start()
     {
-        if (!System.IO.File.Exists("savedStars.dat"))
+		getLevels = SceneManager.sceneCountInBuildSettings - 2;
+
+		Debug.Log("Level Count: " + getLevels);
+
+
+		if (!System.IO.File.Exists("savedStars.dat"))
         {
             fillList();
             Debug.Log("VUL LIJST");
@@ -29,7 +36,7 @@ public class StarManagement : MonoBehaviour
 
     public void fillList()
     {
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < getLevels; i++)
         {
 
             if(i > 0)
