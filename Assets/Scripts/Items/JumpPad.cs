@@ -65,6 +65,7 @@ public class JumpPad : MonoBehaviour, IInventoryItem
         if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
             gameObject.GetComponent<Animator>().enabled = true;
+            gameObject.GetComponent<AudioSource>().Play();
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForceup);
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * jumpForceforward);
         }

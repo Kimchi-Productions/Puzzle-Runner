@@ -4,22 +4,28 @@ using UnityEngine;
 
 public class Tutorial : MonoBehaviour
 {
-    private bool hasStarted = false;
+    public GameObject player;
+    float prevSpeed;
+    private Animator animator;
     void Start()
     {
+        animator = player.GetComponent<Animator>();
+        StartCoroutine(DelayBeforePause());
     }
 
-    void Update()
+    IEnumerator DelayBeforePause()
     {
-        if (!hasStarted)
-        {
-            Time.timeScale = 0f;
-        }
+        yield return new WaitForSeconds(2);
+        player.GetComponent<Automove>().Speed_X = 0.2f;
+        prevSpeed = animator.speed;
+        animator.speed = 0.1f;
+        StartCoroutine(DelayDuringPause());
+    }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            hasStarted = true;
-            Time.timeScale = 1f;
-        }
+    IEnumerator DelayDuringPause()
+    {
+        yield return new WaitForSeconds(4);
+        player.GetComponent<Automove>().Speed_X = 3f;
+        animator.speed = prevSpeed;
     }
 }
