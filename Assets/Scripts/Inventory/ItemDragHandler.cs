@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ItemDragHandler : MonoBehaviour, IDragHandler, IEndDragHandler
+/*public class ItemDragHandler : MonoBehaviour, IDragHandler, IEndDragHandler
 {
     public IInventoryItem Item { get; set; }
     public void OnDrag(PointerEventData eventData)
@@ -17,4 +17,4 @@ public class ItemDragHandler : MonoBehaviour, IDragHandler, IEndDragHandler
         transform.localPosition = Vector2.zero;
         transform.localScale = new Vector3(1, 1, 0);
     }
-}
+}*/

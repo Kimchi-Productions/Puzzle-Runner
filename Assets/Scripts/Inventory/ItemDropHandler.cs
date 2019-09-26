@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ItemDropHandler : MonoBehaviour, IDropHandler
+/*public class ItemDropHandler : MonoBehaviour, IDropHandler
 {
     public void OnDrop(PointerEventData eventData)
     {
@@ -13,11 +13,10 @@ public class ItemDropHandler : MonoBehaviour, IDropHandler
             Input.mousePosition))
         {
             IInventoryItem item = eventData.pointerDrag.gameObject.GetComponent<ItemDragHandler>().Item;
-            if (item != null)
-            {
+            //if (item != null)
+            //{
                 GameObject.Find("Inventory").GetComponent<Inventory>().RemoveItem(item);
-                //item.OnDrop();
-            }
+            //}
         }
     }
-}
+}*/

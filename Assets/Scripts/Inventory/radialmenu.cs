@@ -16,7 +16,6 @@ public class radialmenu : MonoBehaviour
         //TODO when no item selected, do nothing
         if (Input.GetMouseButtonUp(0))
         {
-            Debug.Log(selected);  
             Destroy(gameObject);
         }
     }

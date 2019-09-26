@@ -45,7 +45,6 @@ public class Portal : MonoBehaviour, IInventoryItem
         if (gameObject.tag == "CanPickUp")
         {
             gameObject.SetActive(false);
-            Debug.Log("Pickup Triggered");
         }
         else
         {
@@ -66,8 +65,6 @@ public class Portal : MonoBehaviour, IInventoryItem
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-
-        Debug.Log("Ontriggered");
         if(other.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
             player.transform.position = new Vector2(portalOut.transform.position.x, portalOut.transform.position.y);
