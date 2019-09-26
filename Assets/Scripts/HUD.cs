@@ -47,14 +47,14 @@ public class HUD : MonoBehaviour
             Image image = Slot.GetChild(0).GetComponent<Image>();
             ItemDragHandler itemDragHandler = Slot.GetChild(0).GetComponent<ItemDragHandler>();
 
-            if (itemDragHandler.Item.Equals(e.Item))
-            {
-                image.enabled = false;
-                image.sprite = null;
-                itemDragHandler.Item = null;
+            //if (itemDragHandler.Item.Equals(e.Item))
+            //{
+            //    image.enabled = false;
+            //    image.sprite = null;
+            //    itemDragHandler.Item = null;
 
-                break;
-            }
+            //    break;
+            //}
         }
     }
 }
