@@ -6,10 +6,20 @@ using System.IO;
 
 public class SaveSystem
 {
+    public static FileStream stream;
+    public static FileStream file;
+
     public static void SaveStar()
     { 
         BinaryFormatter formatter = new BinaryFormatter();
-        FileStream stream = new FileStream(Application.persistentDataPath + "/savedStars.dat", FileMode.Create);
+        if(Application.platform == RuntimePlatform.Android)
+        {
+            stream = new FileStream(Application.persistentDataPath + "/savedStars.dat", FileMode.Create);
+        }
+        else
+        {
+            stream = new FileStream("savedStars.dat", FileMode.Create);
+        }
         formatter.Serialize(stream, StarManagement.starList);
         stream.Close();
 
@@ -19,7 +29,15 @@ public class SaveSystem
     public static void LoadStar()
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        FileStream file = File.Open(Application.persistentDataPath + "/savedStars.dat", FileMode.Open);
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            file = File.Open(Application.persistentDataPath + "/savedStars.dat", FileMode.Open);
+        }
+        else
+        {
+            file = File.Open("savedStars.dat", FileMode.Open);
+        }
+            
         StarManagement.starList = (List<Star>)formatter.Deserialize(file);
         file.Close();
     }
