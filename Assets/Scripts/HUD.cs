@@ -27,13 +27,11 @@ public class HUD : MonoBehaviour
         foreach (Transform Slot in inventoryPanel)
         {
             Image image = Slot.GetChild(0).GetComponent<Image>();
-            ItemDragHandler itemDragHandler = Slot.GetChild(0).GetComponent<ItemDragHandler>();
 
             if(!image.enabled)
             {
                 image.enabled = true;
                 image.sprite = e.Item.Image;
-                itemDragHandler.Item = e.Item;
 
                 break;
             }
@@ -45,16 +43,11 @@ public class HUD : MonoBehaviour
         foreach (Transform Slot in inventoryPanel)
         {
             Image image = Slot.GetChild(0).GetComponent<Image>();
-            ItemDragHandler itemDragHandler = Slot.GetChild(0).GetComponent<ItemDragHandler>();
 
-            //if (itemDragHandler.Item.Equals(e.Item))
-            //{
-            //    image.enabled = false;
-            //    image.sprite = null;
-            //    itemDragHandler.Item = null;
+            image.enabled = false;
+            image.sprite = null;
 
-            //    break;
-            //}
+            break;
         }
     }
 }

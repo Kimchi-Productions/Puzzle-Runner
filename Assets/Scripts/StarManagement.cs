@@ -15,23 +15,72 @@ public class StarManagement : MonoBehaviour
     public void Start()
     {
 		getLevels = SceneManager.sceneCountInBuildSettings - 2;
-
 		Debug.Log("Level Count: " + getLevels);
 
-
-		if (!System.IO.File.Exists((Application.persistentDataPath + "/savedStars.dat")))
+        if (Application.platform == RuntimePlatform.Android)
         {
-            fillList();
-            Debug.Log("VUL LIJST");
+            if (!System.IO.File.Exists((Application.persistentDataPath + "/savedStars.dat")))
+            {
+                fillList();
+                Debug.Log("VUL LIJST");
+            }
+            else
+            {
+
+                SaveSystem.LoadStar();
+                Debug.Log("LAAD LIJST!");
+                Debug.Log(starList.Count);
+
+                if (starList.Count == getLevels)
+                {
+                    Debug.Log("Starlist loopt gelijk met de save");
+                }
+                else
+                {
+                    Debug.Log("Starlist Loopt niet gelijk met de save");
+                    for (int i = starList.Count - 1; i <= getLevels - 1; i++)
+                    {
+                        starList.Add(new Star("Level-" + i, currentLevel + i, 0));
+                    }
+                    SaveSystem.SaveStar();
+                    Debug.Log(starList.Count);
+                }
+            }
         }
         else
         {
-            SaveSystem.LoadStar();
-            Debug.Log("LAAD LIJST!");
+
+            if (!System.IO.File.Exists(("savedStars.dat")))
+            {
+                fillList();
+                Debug.Log("VUL LIJST");
+            }
+            else
+            {
+
+                SaveSystem.LoadStar();
+                Debug.Log("LAAD LIJST!");
+                Debug.Log(starList.Count);
+
+                if (starList.Count == getLevels)
+                {
+                    Debug.Log("Starlist loopt gelijk met de save");
+                }
+                else
+                {
+                    Debug.Log("Loopt niet gelijk");
+                    for (int i = starList.Count - 1; i <= getLevels - 1; i++)
+                    {
+                        starList.Add(new Star("Level-" + i, currentLevel + i, 0));
+                    }
+                    SaveSystem.SaveStar();
+                    Debug.Log(starList.Count);
+                }
+            }
         }
+
         
         currentLevel = SceneManager.GetActiveScene().buildIndex -1;
-
     }
 
     public void fillList()

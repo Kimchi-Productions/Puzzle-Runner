@@ -14,8 +14,6 @@ public class wheelmenutrigger : MonoBehaviour
         {
             radialmenuspawner.ins.SpawnMenu(Input.mousePosition);
             HUD.transform.Find("Inventory").GetComponent<Inventory>().clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Debug.Log("Mousebuttondown click position: " + Camera.main.ScreenToWorldPoint(Input.mousePosition));
-            Debug.Log("inventory click position: " + HUD.transform.Find("Inventory").GetComponent<Inventory>().clickPosition);
         }
     }
 }
