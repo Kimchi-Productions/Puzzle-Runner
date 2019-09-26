@@ -30,7 +30,6 @@ public class Inventory : MonoBehaviour
             radialbutton newButton = Instantiate(buttonPrefab) as radialbutton;
             newButton.transform.SetParent(newMenu.transform, false);
             float theta = ( 2* Mathf.PI / mItems.Count) *i;
-            Debug.Log(theta);
             float xPos = Mathf.Sin(theta);
             float yPos = Mathf.Cos(theta);
             newButton.transform.localPosition = new Vector2 (xPos, yPos) * 150f;
@@ -45,8 +44,6 @@ public class Inventory : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0) && this.Selected != null)
         {
-            Debug.Log(Selected.title);
-            Debug.Log(clickPosition);
             Selected.inventoryItem.OnDrop(clickPosition);
             Destroy(menuInstance.gameObject);
             this.Selected = null;
@@ -76,11 +73,11 @@ public class Inventory : MonoBehaviour
 
     public void RemoveItem(IInventoryItem item)
     {
+        Debug.Log("remove item");
         if(mItems.Remove(item))
         {
             mItems.Remove(item);
-            item.OnDrop(clickPosition);
-
+            Debug.Log(mItems.Count);
             Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
 
             if(collider != null)

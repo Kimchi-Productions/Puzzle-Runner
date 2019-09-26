@@ -16,7 +16,6 @@ public class radialbutton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerEnter (PointerEventData eventData)
     {
-        Debug.Log("Pointer enter");
         GameObject.Find("Inventory").GetComponent<Inventory>().Selected = this;
         defaultColor = circle.color;
         circle.color = Color.white;
@@ -24,8 +23,6 @@ public class radialbutton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerExit (PointerEventData eventData)
     {
-        Debug.Log("Deselect item");
-        Debug.Log("Touch count: " + Input.touchCount);
         StartCoroutine(DeselectItem(0.001F));
         circle.color = defaultColor;
     }
