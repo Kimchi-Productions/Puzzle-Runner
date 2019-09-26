@@ -31,9 +31,9 @@ public class Automove : MonoBehaviour
         this.transform.Translate(new Vector2(Speed_X, Speed_Y) * Time.deltaTime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        IInventoryItem item = collision.collider.GetComponent<IInventoryItem>();
+        IInventoryItem item = collision.GetComponent<IInventoryItem>();
         if(item != null && collision.gameObject.tag == "CanPickUp")
         {
             Debug.Log(item);
