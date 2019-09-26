@@ -57,18 +57,16 @@ public class Portal : MonoBehaviour, IInventoryItem
     {
         gameObject.tag = "CantPickUp";
         gameObject.SetActive(true);
-        gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
         Vector3 pz = spawnPos;
         pz.z = 0;
         gameObject.transform.position = pz;
         GameObject.Find("Inventory").GetComponent<Inventory>().RemoveItem(this);
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-
         Debug.Log("Ontriggered");
-        if(other.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
+        if(collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
             player.transform.position = new Vector2(portalOut.transform.position.x, portalOut.transform.position.y);
         }
