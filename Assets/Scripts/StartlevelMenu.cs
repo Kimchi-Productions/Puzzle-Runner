@@ -10,7 +10,7 @@ public class StartlevelMenu : MonoBehaviour
     {
         Time.timeScale = 0f;
     }
-
+    
     public void startLevel(){
         Time.timeScale = 1f;
         startMenuUI.SetActive(false);
