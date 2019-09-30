@@ -33,6 +33,22 @@ public class Bomb : MonoBehaviour, IInventoryItem
         }
     }
 
+    public Rigidbody2D rigidbody
+    {
+        get
+        {
+            return this.GetComponent<Rigidbody2D>();
+        }
+    }
+
+    public Transform transform
+    {
+        get
+        {
+            return transform;
+        }
+    }
+
 
     public void OnPickUp()
     {

@@ -89,6 +89,13 @@ public class Inventory : MonoBehaviour
             {
                 ItemRemoved(this, new InventoryEventArgs(item));
             }
+
+            if(GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().gravityScale < 0)
+            {
+                item.rigidbody.gravityScale = -item.rigidbody.gravityScale;
+                Quaternion rotation = Quaternion.Euler(0, 0, 180);
+                item.transform.localRotation = rotation;
+            }
         }
     }
 }
