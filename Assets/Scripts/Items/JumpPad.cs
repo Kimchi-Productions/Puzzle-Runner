@@ -83,8 +83,26 @@ public class JumpPad : MonoBehaviour, IInventoryItem
             Debug.Log("collided");
             gameObject.GetComponent<Animator>().enabled = true;
             gameObject.GetComponent<AudioSource>().Play();
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForceup);
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * jumpForceforward);
+            
+            if (gameObject.GetComponent<Rigidbody2D>().gravityScale > 0)
+            {
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForceup);
+            }
+            else
+            {
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.down * jumpForceup);
+            }
+
+            if(collision.gameObject.GetComponent<Automove>().Speed_X > 0)
+            {
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * jumpForceforward);
+
+            }
+            else
+            {
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.left * jumpForceforward);
+
+            }
         }
     }
 
