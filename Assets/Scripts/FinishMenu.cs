@@ -7,7 +7,7 @@ public class FinishMenu : MonoBehaviour
 {
     public GameObject finishui;
     public int getActiveLevel;
-    public int addedStarts;
+    public int addedStars;
 
     public void start(){
         Time.timeScale = 1f;
@@ -15,21 +15,39 @@ public class FinishMenu : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Time.timeScale = 0f;
+        finishui.SetActive(true);
+        getActiveLevel = SceneManager.GetActiveScene().buildIndex - 2;
+
         if (ItemStar.starPickedUp == false)
         {
-            getActiveLevel = SceneManager.GetActiveScene().buildIndex - 2;
-            addedStarts = 2;
-            StarManagement.addStar(getActiveLevel, addedStarts);
-            Time.timeScale = 0f;
-            finishui.SetActive(true);
+            addedStars = 2;
+            earnedStars(getActiveLevel, addedStars);
+            StarManagement.addStar(getActiveLevel, addedStars);
         }
         else
         {
-            getActiveLevel = SceneManager.GetActiveScene().buildIndex - 2;
-            addedStarts = 3;
-            StarManagement.addStar(getActiveLevel, addedStarts);
-            Time.timeScale = 0f;
-            finishui.SetActive(true);
+            addedStars = 3;
+            earnedStars(getActiveLevel, addedStars);
+            StarManagement.addStar(getActiveLevel, addedStars);
+            ItemStar.starPickedUp = false;
+        }
+    }
+
+    public void earnedStars(int s, int a)
+    {
+        SaveSystem.LoadStar();
+
+        if (addedStars > StarManagement.starList[getActiveLevel].amountOfStars)
+        {
+            Debug.Log("New HIGHSCORE! You have earned: " + addedStars + " stars");
+            Debug.Log("Your best score for this level was: " + StarManagement.starList[getActiveLevel].amountOfStars + " stars");
+        }
+        else
+        {
+            Debug.Log("NO new HIGHSCORE.. You have earned: " + addedStars + " stars");
+            Debug.Log("Your best score for this level was: " + StarManagement.starList[getActiveLevel].amountOfStars + " stars");
         }
     }
 }
+    
