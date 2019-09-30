@@ -1691,7 +1691,6 @@ GameObject:
   - component: {fileID: 3805432748298614900}
   - component: {fileID: 7051244998955910743}
   - component: {fileID: 7161997909412952743}
-  - component: {fileID: 8323619995736067337}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -1831,18 +1830,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuPrefab: {fileID: 5398728380812346932, guid: 6de03ea9732926c46994bcf983a48f29,
     type: 3}
---- !u!114 &8323619995736067337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3648493232455419573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0fee2ead613ae46a017687cd05a699, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3648493232463421293
 GameObject:
   m_ObjectHideFlags: 0
