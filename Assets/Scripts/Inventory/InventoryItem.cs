@@ -8,6 +8,10 @@ public interface IInventoryItem
     Sprite Image { get; }
     Color Color { get; }
 
+    Rigidbody2D rigidbody { get; }
+
+    Transform transform { get; }
+
     void OnPickUp();
 
     void OnDrop(Vector3 spawnPos);

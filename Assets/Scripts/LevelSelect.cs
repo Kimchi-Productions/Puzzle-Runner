@@ -15,7 +15,7 @@ public class LevelSelect : MonoBehaviour
 
     void Start()
     {
-        int levelAt = PlayerPrefs.GetInt("levelAt", 2);
+        int levelAt = PlayerPrefs.GetInt("levelAt", 1);
         SaveSystem.LoadStar();
         
         for (int i = 0; i <= SceneManager.sceneCountInBuildSettings - 3; i++)
@@ -28,7 +28,7 @@ public class LevelSelect : MonoBehaviour
             
             string levelName = "Level-" + counter;
             Buttons = Instantiate(preFabButton, transform);
-            Buttons.GetComponentInChildren<Text>().text = levelName;
+            Buttons.GetComponentInChildren<Text>().text = "" + counter;
             showStars = Buttons.GetComponentsInChildren<Image>();
             Button buttonElement = Buttons.GetComponent<Button>();
             buttonElement.onClick.AddListener(() => GoToLevel(levelName));
@@ -36,11 +36,10 @@ public class LevelSelect : MonoBehaviour
             switch (StarManagement.starList[i].amountOfStars)
             {
                 case 1:
-                    showStars[0].color = new Color32(255, 255, 225, 255);
+                    showStars[1].color = new Color32(255, 255, 225, 255);
                     Debug.Log("1 Sterren");
                     break;
                 case 2:
-                    showStars[0].color = new Color32(255, 255, 225, 255);
                     showStars[1].color = new Color32(255, 255, 225, 255);
                     showStars[2].color = new Color32(255, 255, 225, 255);
                     Debug.Log("2 Sterren");
@@ -51,6 +50,12 @@ public class LevelSelect : MonoBehaviour
                     showStars[3].color = new Color32(255, 255, 225, 255);
                     Debug.Log("3 Sterren");
                     break;
+            }
+
+            if (i + 1 > levelAt)
+            {
+                buttonElement.interactable = false;
+                buttonElement.GetComponent<Image>().color = new Color32(0, 0, 20, 255);
             }
         }
     }

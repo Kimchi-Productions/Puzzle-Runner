@@ -109,12 +109,12 @@ public class StarManagement : MonoBehaviour
 
             if (star.level == getActiveLevel)
             {
-                star.amountOfStars = addedStars;
-                SaveSystem.SaveStar();
-            }
-
+                if (addedStars > star.amountOfStars)
+                {
+                    star.amountOfStars = addedStars;
+                    SaveSystem.SaveStar();
+                }
+            } 
         }
-
     }
-
 }
