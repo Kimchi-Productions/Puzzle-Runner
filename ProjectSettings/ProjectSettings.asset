@@ -260,7 +260,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/labin/Downloads/KimchiProductions.keystore
+  AndroidKeystoreName: C:/Users/avand/Desktop/New folder/KimchiProductions.keystore
   AndroidKeyaliasName: kimchikeystore
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

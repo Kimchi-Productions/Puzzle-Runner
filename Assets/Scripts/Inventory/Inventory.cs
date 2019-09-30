@@ -57,7 +57,9 @@ public class Inventory : MonoBehaviour
             Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
             if (collider.enabled)
             {
+                BoxCollider2D boxCollider = (item as MonoBehaviour).GetComponent<BoxCollider2D>();
                 collider.enabled = false;
+                boxCollider.enabled = false;
 
                 mItems.Add(item);
 
@@ -79,10 +81,12 @@ public class Inventory : MonoBehaviour
             mItems.Remove(item);
             Debug.Log(mItems.Count);
             Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
+            BoxCollider2D boxCollider = (item as MonoBehaviour).GetComponent<BoxCollider2D>();
 
-            if(collider != null)
+            if (collider != null)
             {
                 collider.enabled = true;
+                boxCollider.enabled = true;
             }
 
             if(ItemRemoved != null)
