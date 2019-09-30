@@ -9,10 +9,8 @@ public class LevelSelect : MonoBehaviour
 {
     public GameObject preFabButton;
     public Button button;
-    public Text ButtonText;
-    public int levelAmount = 2;
-    public GameObject Buttons;
-    public GameObject[] starText;
+    public GameObject Buttons;  
+    public Image[] showStars;
     public int counter = 1;
 
     void Start()
@@ -31,14 +29,28 @@ public class LevelSelect : MonoBehaviour
             string levelName = "Level-" + counter;
             Buttons = Instantiate(preFabButton, transform);
             Buttons.GetComponentInChildren<Text>().text = levelName;
+            showStars = Buttons.GetComponentsInChildren<Image>();
             Button buttonElement = Buttons.GetComponent<Button>();
             buttonElement.onClick.AddListener(() => GoToLevel(levelName));
-            starText = GameObject.FindGameObjectsWithTag("ShowStars");
-            starText[i].GetComponent<Text>().text = "" + StarManagement.starList[i].amountOfStars;
 
-            if (i + 1 > levelAt)
+            switch (StarManagement.starList[i].amountOfStars)
             {
-               buttonElement.interactable = false;
+                case 1:
+                    showStars[0].color = new Color32(255, 255, 225, 255);
+                    Debug.Log("1 Sterren");
+                    break;
+                case 2:
+                    showStars[0].color = new Color32(255, 255, 225, 255);
+                    showStars[1].color = new Color32(255, 255, 225, 255);
+                    showStars[2].color = new Color32(255, 255, 225, 255);
+                    Debug.Log("2 Sterren");
+                    break;
+                case 3:
+                    showStars[1].color = new Color32(255, 255, 225, 255);
+                    showStars[2].color = new Color32(255, 255, 225, 255);
+                    showStars[3].color = new Color32(255, 255, 225, 255);
+                    Debug.Log("3 Sterren");
+                    break;
             }
         }
     }
