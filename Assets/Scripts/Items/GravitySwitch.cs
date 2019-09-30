@@ -45,6 +45,22 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
         }
     }
 
+    public Rigidbody2D rigidbody
+    {
+        get
+        {
+            return this.GetComponent<Rigidbody2D>();
+        }
+    }
+
+    public Transform transform
+    {
+        get
+        {
+            return this.GetComponent<Transform>();
+        }
+    }
+
     public void OnDrop(Vector3 spawnPos)
     {
         gameObject.tag = "CantPickUp";
