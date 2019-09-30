@@ -30,7 +30,6 @@ public class SceneController : MonoBehaviour
         {
             PlayerPrefs.SetInt("levelAt", nextSceneLoaded);
         }
-        Time.timeScale = 1.0f;
     }
 
 }

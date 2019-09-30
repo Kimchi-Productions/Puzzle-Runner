@@ -9,10 +9,6 @@ public class FinishMenu : MonoBehaviour
     public int getActiveLevel;
     public int addedStarts;
 
-    public void start(){
-        Time.timeScale = 1f;
-        finishui.SetActive(false);
-    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (ItemStar.starPickedUp == false)
