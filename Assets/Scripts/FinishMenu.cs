@@ -7,7 +7,9 @@ public class FinishMenu : MonoBehaviour
 {
     public GameObject finishui;
     public int getActiveLevel;
-    public int addedStars;
+    public int addedStars = 0;
+    public int pickedUpStars = 0;
+    public int finishStarAmount = 1;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,19 +17,16 @@ public class FinishMenu : MonoBehaviour
         finishui.SetActive(true);
         getActiveLevel = SceneManager.GetActiveScene().buildIndex - 2;
 
-        if (ItemStar.starPickedUp == false)
+        addedStars = addedStars + finishStarAmount;
+        for (int i = 0; i < pickedUpStars; i++)
         {
-            addedStars = 2;
-            earnedStars(getActiveLevel, addedStars);
-            StarManagement.addStar(getActiveLevel, addedStars);
+            addedStars ++;
         }
-        else
-        {
-            addedStars = 3;
-            earnedStars(getActiveLevel, addedStars);
-            StarManagement.addStar(getActiveLevel, addedStars);
-            ItemStar.starPickedUp = false;
-        }
+
+        earnedStars(getActiveLevel, addedStars);
+        StarManagement.addStar(getActiveLevel, addedStars);
+        addedStars = 0;
+        pickedUpStars = 0;
     }
 
     public void earnedStars(int s, int a)

@@ -80,7 +80,6 @@ public class JumpPad : MonoBehaviour, IInventoryItem
     {
         if (collision.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
-            Debug.Log("collided");
             gameObject.GetComponent<Animator>().enabled = true;
             gameObject.GetComponent<AudioSource>().Play();
             

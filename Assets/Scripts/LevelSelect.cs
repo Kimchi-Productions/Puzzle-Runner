@@ -37,22 +37,20 @@ public class LevelSelect : MonoBehaviour
             {
                 case 1:
                     showStars[1].color = new Color32(255, 255, 225, 255);
-                    Debug.Log("1 Sterren");
                     break;
                 case 2:
                     showStars[1].color = new Color32(255, 255, 225, 255);
                     showStars[2].color = new Color32(255, 255, 225, 255);
-                    Debug.Log("2 Sterren");
                     break;
                 case 3:
                     showStars[1].color = new Color32(255, 255, 225, 255);
                     showStars[2].color = new Color32(255, 255, 225, 255);
                     showStars[3].color = new Color32(255, 255, 225, 255);
-                    Debug.Log("3 Sterren");
                     break;
             }
-
-            if (i + 1 > levelAt)
+            Debug.Log("counter = " + counter);
+            Debug.Log("levelat = " + levelAt);
+            if (counter > levelAt)
             {
                 buttonElement.interactable = false;
                 buttonElement.GetComponent<Image>().color = new Color32(0, 0, 20, 255);

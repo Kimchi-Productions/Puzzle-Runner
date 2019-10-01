@@ -1127,6 +1127,11 @@ PrefabInstance:
       propertyPath: finishui
       value: 
       objectReference: {fileID: 6071231710241088537}
+    - target: {fileID: 7245777522989195731, guid: 09b8a0dc520f62b41a2c234318e8d23b,
+        type: 3}
+      propertyPath: finishStarAmount
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7245777522989195729, guid: 09b8a0dc520f62b41a2c234318e8d23b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

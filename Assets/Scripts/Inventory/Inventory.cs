@@ -75,11 +75,9 @@ public class Inventory : MonoBehaviour
 
     public void RemoveItem(IInventoryItem item)
     {
-        Debug.Log("remove item");
         if(mItems.Remove(item))
         {
             mItems.Remove(item);
-            Debug.Log(mItems.Count);
             Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
             BoxCollider2D boxCollider = (item as MonoBehaviour).GetComponent<BoxCollider2D>();
 

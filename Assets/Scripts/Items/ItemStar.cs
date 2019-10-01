@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ItemStar : MonoBehaviour
 {
-    static public bool starPickedUp = false;
+    private GameObject finish;
+    private void Start()
+    {
+        finish = GameObject.FindGameObjectWithTag("Finish");
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        starPickedUp = true;
         gameObject.SetActive(false);
+        finish.GetComponent<FinishMenu>().pickedUpStars ++;
     }
 }
