@@ -25,7 +25,7 @@ public class SceneController : MonoBehaviour
     public void Nextlvl()
     {
         nextSceneLoaded = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(nextSceneLoaded);
+        SceneManager.LoadScene(nextSceneLoaded + 1);
         if(nextSceneLoaded > PlayerPrefs.GetInt("levelAt"))
         {
             PlayerPrefs.SetInt("levelAt", nextSceneLoaded);
