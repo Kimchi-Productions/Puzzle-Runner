@@ -71,7 +71,6 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
         GameObject.Find("Inventory").GetComponent<Inventory>().RemoveItem(this);
     }
 
-    public float gravityAfterCollision = -1f;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -79,7 +78,7 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
         {
             GameObject Player = GameObject.FindGameObjectWithTag("Player");
             gameObject.GetComponent<AudioSource>().Play();
-            Player.GetComponent<Rigidbody2D>().gravityScale = gravityAfterCollision;
+            Player.GetComponent<Rigidbody2D>().gravityScale = -Player.GetComponent<Rigidbody2D>().gravityScale;
             Player.transform.Rotate(900, 0, 0);
         }
 
