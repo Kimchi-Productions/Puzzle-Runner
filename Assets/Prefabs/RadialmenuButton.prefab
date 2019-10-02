@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3178445570960113282}
   - component: {fileID: 2936327262296501060}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RadialmenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,6 +94,7 @@ MonoBehaviour:
   icon: {fileID: 3714702991013392847}
   title: 
   HUD: {fileID: 3269664784136415250, guid: d915fb123d8bed2419a5785fbd4ca030, type: 3}
+  player: {fileID: 705110908111325977, guid: a12b3de28d60a364ea1ca929003ffa4d, type: 3}
 --- !u!95 &2936327262296501060
 Animator:
   serializedVersion: 3

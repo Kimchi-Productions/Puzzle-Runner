@@ -6,6 +6,8 @@ public class radialmenuspawner : MonoBehaviour
 {
     public static radialmenuspawner ins;
     public radialmenu menuPrefab;
+    public GameObject GhostItem;
+    public GameObject ghostObject;
 
     void Awake()
     {
@@ -20,5 +22,7 @@ public class radialmenuspawner : MonoBehaviour
         newMenu.GetComponent<RectTransform>().anchorMin = Camera.main.ScreenToViewportPoint(new Vector2(mousePosition.x, mousePosition.y));
         transform.Find("Inventory").GetComponent<Inventory>().SpawnButtons(newMenu);
 
+        ghostObject = Instantiate(GhostItem, new Vector3(0, 0, 0), Quaternion.identity);
+        Debug.Log(ghostObject);
     }
 }

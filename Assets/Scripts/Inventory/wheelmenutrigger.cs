@@ -8,12 +8,16 @@ public class wheelmenutrigger : MonoBehaviour
     public GameObject HUD;
 
     //Listen for interaction to open the radial menu
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && Time.timeScale == 1f)
         {
             radialmenuspawner.ins.SpawnMenu(Input.mousePosition);
             HUD.transform.Find("Inventory").GetComponent<Inventory>().clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            //Slow down the game speed
+            Time.timeScale = 0.1f;
         }
     }
 }

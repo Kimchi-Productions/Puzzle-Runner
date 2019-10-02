@@ -36,16 +36,16 @@ public class Tutorial : MonoBehaviour
     IEnumerator DelayBeforePause()
     {
         yield return new WaitForSeconds(2);
-        player.GetComponent<Automove>().Speed_X = 0.2f;
+        //player.GetComponent<Automove>().Speed_X = 0.2f;
         prevSpeed = animator.speed;
-        animator.speed = 0.1f;
+        //animator.speed = 0.1f;
         StartCoroutine(DelayDuringPause());
     }
 
     IEnumerator DelayDuringPause()
     {
         yield return new WaitForSeconds(4);
-        player.GetComponent<Automove>().Speed_X = 3f;
-        animator.speed = prevSpeed;
+        //player.GetComponent<Automove>().Speed_X = 3f;
+        //animator.speed = prevSpeed;
     }
 }

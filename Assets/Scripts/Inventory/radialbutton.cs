@@ -11,6 +11,7 @@ public class radialbutton : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public string title;
     public GameObject HUD;
     public IInventoryItem inventoryItem;
+    public GameObject player;
 
     Color defaultColor;
 

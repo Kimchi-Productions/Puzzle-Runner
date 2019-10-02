@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3070,11 +3070,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9162534486384608543, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_Text
-      value: "2 \u2605"
-      objectReference: {fileID: 0}
     - target: {fileID: 1181271400452871003, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: m_Text
@@ -3087,10 +3082,30 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 2641655800699218493, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_Text
+      value: 1 - First Jumps
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976750424139658579, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9162534486384608543, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_Text
+      value: "2 \u2605"
+      objectReference: {fileID: 0}
     - target: {fileID: 7377383942666632090, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: m_Text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332452536685479386, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_Text
+      value: "1 \u2605"
       objectReference: {fileID: 0}
     - target: {fileID: 3782826760169203557, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
@@ -3103,21 +3118,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: The Jumppad is used to launch the player in the air, crossing dangerous
         gaps.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332452536685479386, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_Text
-      value: "1 \u2605"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7976750424139658579, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2641655800699218493, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_Text
-      value: 1 - First Jumps
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f42c6528c4e645544b6b97abfbe2ab92, type: 3}
