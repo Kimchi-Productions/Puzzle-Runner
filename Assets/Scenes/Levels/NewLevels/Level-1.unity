@@ -132,6 +132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Star
       objectReference: {fileID: 0}
+    - target: {fileID: 2494810527869140338, guid: fc24ee2eddd62c5429d4cb6a72f83873,
+        type: 3}
+      propertyPath: finish
+      value: 
+      objectReference: {fileID: 2063495930}
     - target: {fileID: 2494810527869140337, guid: fc24ee2eddd62c5429d4cb6a72f83873,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -187,11 +192,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2494810527869140338, guid: fc24ee2eddd62c5429d4cb6a72f83873,
-        type: 3}
-      propertyPath: finish
-      value: 
-      objectReference: {fileID: 2063495930}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc24ee2eddd62c5429d4cb6a72f83873, type: 3}
 --- !u!4 &314470663 stripped
@@ -1812,16 +1812,16 @@ PrefabInstance:
       propertyPath: inventory
       value: 
       objectReference: {fileID: 7413862120336915317}
-    - target: {fileID: 5491584917627547583, guid: a12b3de28d60a364ea1ca929003ffa4d,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9432ed82557be854391746fa6baab8d7, type: 2}
     - target: {fileID: 8092644358867048931, guid: a12b3de28d60a364ea1ca929003ffa4d,
         type: 3}
       propertyPath: HUD
       value: 
       objectReference: {fileID: 6071231710233361857}
+    - target: {fileID: 5491584917627547583, guid: a12b3de28d60a364ea1ca929003ffa4d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9432ed82557be854391746fa6baab8d7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a12b3de28d60a364ea1ca929003ffa4d, type: 3}
 --- !u!1 &1567639027 stripped
@@ -3030,16 +3030,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2747172598964442725, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 582.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2747172598964442725, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -1235
-      objectReference: {fileID: 0}
     - target: {fileID: 76776004068480617, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -3060,6 +3050,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2747172598964442725, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 582.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747172598964442725, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -1235
+      objectReference: {fileID: 0}
     - target: {fileID: 8489909365161581118, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3069,6 +3069,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7291773674358797302, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976750424139658579, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641655800699218493, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_Text
+      value: 1 - First Jumps
       objectReference: {fileID: 0}
     - target: {fileID: 9162534486384608543, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
@@ -3092,6 +3107,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1332452536685479386, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_Text
+      value: "1 \u2605"
+      objectReference: {fileID: 0}
     - target: {fileID: 3782826760169203557, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: m_Sprite
@@ -3103,21 +3123,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: The Jumppad is used to launch the player in the air, crossing dangerous
         gaps.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332452536685479386, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_Text
-      value: "1 \u2605"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7976750424139658579, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2641655800699218493, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_Text
-      value: 1 - First Jumps
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f42c6528c4e645544b6b97abfbe2ab92, type: 3}
