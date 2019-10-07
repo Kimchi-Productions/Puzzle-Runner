@@ -695,6 +695,11 @@ PrefabInstance:
       propertyPath: inventory
       value: 
       objectReference: {fileID: 7413862120336915317}
+    - target: {fileID: 8092644358867048931, guid: a12b3de28d60a364ea1ca929003ffa4d,
+        type: 3}
+      propertyPath: HUD
+      value: 
+      objectReference: {fileID: 6071231710233361857}
     - target: {fileID: 5491584917627547583, guid: a12b3de28d60a364ea1ca929003ffa4d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -705,11 +710,6 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8092644358867048931, guid: a12b3de28d60a364ea1ca929003ffa4d,
-        type: 3}
-      propertyPath: HUD
-      value: 
-      objectReference: {fileID: 6071231710233361857}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a12b3de28d60a364ea1ca929003ffa4d, type: 3}
 --- !u!1 &1567639027 stripped
@@ -1059,16 +1059,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 144269774853277049, guid: 8af6981ada88f004aa2f7b64af696390,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -13.8
-      objectReference: {fileID: 0}
     - target: {fileID: 144269774853277055, guid: 8af6981ada88f004aa2f7b64af696390,
         type: 3}
       propertyPath: gameoverui
       value: 
       objectReference: {fileID: 6071231709310807905}
+    - target: {fileID: 144269774853277049, guid: 8af6981ada88f004aa2f7b64af696390,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8af6981ada88f004aa2f7b64af696390, type: 3}
 --- !u!4 &144269776824984302 stripped
@@ -1252,16 +1252,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2747172598964442725, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 582.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2747172598964442725, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -1235
-      objectReference: {fileID: 0}
     - target: {fileID: 76776004068480617, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1282,6 +1272,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2747172598964442725, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 582.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747172598964442725, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -1235
+      objectReference: {fileID: 0}
+    - target: {fileID: 8489909365161581118, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 107.1001
+      objectReference: {fileID: 0}
     - target: {fileID: 3797093507282266448, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: SLOTS
@@ -1298,15 +1303,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2798826790874261650, guid: 117e6d548fae340938862e2033244725,
         type: 3}
-    - target: {fileID: 8489909365161581118, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 107.1001
-      objectReference: {fileID: 0}
     - target: {fileID: 1490888201340774364, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7291773674358797302, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976750424139658579, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2641655800699218493, guid: f42c6528c4e645544b6b97abfbe2ab92,
+        type: 3}
+      propertyPath: m_Text
+      value: 4 - New Technologies
       objectReference: {fileID: 0}
     - target: {fileID: 9162534486384608543, guid: f42c6528c4e645544b6b97abfbe2ab92,
         type: 3}
@@ -1338,16 +1353,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: A brand new innovation, made to turn your world upside down!
-      objectReference: {fileID: 0}
-    - target: {fileID: 7976750424139658579, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2641655800699218493, guid: f42c6528c4e645544b6b97abfbe2ab92,
-        type: 3}
-      propertyPath: m_Text
-      value: 4 - New Technologies
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f42c6528c4e645544b6b97abfbe2ab92, type: 3}
