@@ -17,6 +17,8 @@ public class radialmenu : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             Destroy(gameObject);
+            //Resume the game speed
+            Time.timeScale = 1f;
         }
     }
 

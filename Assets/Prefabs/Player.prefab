@@ -151,6 +151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HUD: {fileID: 6071231710737293990, guid: 114595c6d0f944f4792a3a70c5dd67bd, type: 3}
+  itemCircle: {fileID: 4784922765635870837, guid: 0a49faeacd28353468ff80f3091338f2,
+    type: 3}
 --- !u!95 &6458122692808453329
 Animator:
   serializedVersion: 3

@@ -12,6 +12,7 @@ TagManager:
   - Shield
   - ButtonAudio
   - startbutton
+  - ItemCircle
   layers:
   - Default
   - TransparentFX

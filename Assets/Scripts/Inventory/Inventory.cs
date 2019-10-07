@@ -23,20 +23,35 @@ public class Inventory : MonoBehaviour
     public void SpawnButtons(radialmenu newMenu)
     {
         menuInstance = newMenu;
+        float theta = 0;
 
         for (int i = 0; i < mItems.Count; i++)
         {
             //Spawn button
             radialbutton newButton = Instantiate(buttonPrefab) as radialbutton;
             newButton.transform.SetParent(newMenu.transform, false);
-            float theta = ( 2* Mathf.PI / mItems.Count) *i;
             float xPos = Mathf.Sin(theta);
             float yPos = Mathf.Cos(theta);
-            newButton.transform.localPosition = new Vector2 (xPos, yPos) * 150f;
+            newButton.transform.localPosition = new Vector2 (xPos, yPos) * 200f;
             newButton.circle.color = mItems[i].Color;
             newButton.icon.sprite = mItems[i].Image;
             newButton.title = mItems[i].Name;
             newButton.inventoryItem = mItems[i];
+
+            if (i % 2 == 0)
+            {
+                if(theta < 0)
+                {
+                    theta = theta - 0.8f;
+                } else if (theta >= 0)
+                {
+                    theta = theta + 0.8f;
+                }
+            }
+            else
+            {
+                theta = -theta;
+            }
         }
     }
 
@@ -47,6 +62,8 @@ public class Inventory : MonoBehaviour
             Selected.inventoryItem.OnDrop(clickPosition);
             Destroy(menuInstance.gameObject);
             this.Selected = null;
+            Time.timeScale = 1f;
+
         }
     }
 

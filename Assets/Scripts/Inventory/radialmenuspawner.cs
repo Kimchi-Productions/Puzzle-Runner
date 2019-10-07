@@ -19,6 +19,5 @@ public class radialmenuspawner : MonoBehaviour
         newMenu.GetComponent<RectTransform>().anchorMax = Camera.main.ScreenToViewportPoint(new Vector2(mousePosition.x, mousePosition.y));
         newMenu.GetComponent<RectTransform>().anchorMin = Camera.main.ScreenToViewportPoint(new Vector2(mousePosition.x, mousePosition.y));
         transform.Find("Inventory").GetComponent<Inventory>().SpawnButtons(newMenu);
-
     }
 }
