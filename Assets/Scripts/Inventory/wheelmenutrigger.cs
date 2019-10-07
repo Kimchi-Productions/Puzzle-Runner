@@ -21,7 +21,6 @@ public class wheelmenutrigger : MonoBehaviour
             //Slow down the game speed
             Time.timeScale = 0.1f;
 
-            Debug.Log(Input.mousePosition);
             itemCircleInstance = Instantiate(itemCircle, new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 10), Quaternion.identity);
         }
 

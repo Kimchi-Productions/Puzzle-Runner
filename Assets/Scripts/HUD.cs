@@ -32,6 +32,7 @@ public class HUD : MonoBehaviour
             {
                 image.enabled = true;
                 image.sprite = e.Item.Image;
+                image.name = e.Item.Name;
 
                 break;
             }
@@ -44,10 +45,15 @@ public class HUD : MonoBehaviour
         {
             Image image = Slot.GetChild(0).GetComponent<Image>();
 
-            image.enabled = false;
-            image.sprite = null;
+            if(image.name == e.Item.Name)
+            {
+                image.name = "ItemImage";
+                image.enabled = false;
+                image.sprite = null;
 
-            break;
+                break;
+            }
+
         }
     }
 }
