@@ -102,7 +102,6 @@ MonoBehaviour:
   _Name: 'GravitySwitch                  '
   _Image: {fileID: 21300000, guid: ea2a37bcc03232943aadcbb3b23db1f1, type: 3}
   _Color: {r: 0, g: 0.19680595, b: 1, a: 1}
-  gravityAfterCollision: -1
 --- !u!50 &1296939852466925547
 Rigidbody2D:
   serializedVersion: 4
@@ -173,7 +172,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a65e7fec432728f47a505c602b9e7b0c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0

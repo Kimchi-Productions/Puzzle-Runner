@@ -547,6 +547,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1317844874694929284, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
     - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -601,11 +606,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1317844874694929284, guid: f4ddde2115562d948bbb9d41ee871394,
-        type: 3}
-      propertyPath: m_Name
-      value: Audio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4ddde2115562d948bbb9d41ee871394, type: 3}
@@ -1736,7 +1736,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.155
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

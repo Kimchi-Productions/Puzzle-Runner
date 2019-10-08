@@ -15,6 +15,7 @@ public class ItemStar : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        collision.GetComponent<AudioSource>().Play();
         gameObject.SetActive(false);
         finish.GetComponent<FinishMenu>().pickedUpStars ++;
         amountOfPickedUpStars = finish.GetComponent<FinishMenu>().pickedUpStars;

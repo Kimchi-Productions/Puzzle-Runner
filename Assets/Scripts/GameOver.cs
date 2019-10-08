@@ -10,6 +10,7 @@ public class GameOver : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            //gameObject.GetComponent<AudioSource>().Play();
             Time.timeScale = 0f;
             gameoverui.SetActive(true);
         }

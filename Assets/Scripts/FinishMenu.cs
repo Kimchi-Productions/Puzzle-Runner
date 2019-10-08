@@ -18,6 +18,7 @@ public class FinishMenu : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Time.timeScale = 0f;
+        gameObject.GetComponent<AudioSource>().Play();
         finishui.SetActive(true);
         getActiveLevel = SceneManager.GetActiveScene().buildIndex - 2;
 
