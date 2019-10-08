@@ -9,7 +9,8 @@ public class LevelSelect : MonoBehaviour
 {
     public GameObject preFabButton;
     public Button button;
-    public GameObject Buttons;  
+    public GameObject Buttons;
+    public Button buttonElement;
     public Image[] showStars;
     public int counter = 1;
 
@@ -30,7 +31,7 @@ public class LevelSelect : MonoBehaviour
             Buttons = Instantiate(preFabButton, transform);
             Buttons.GetComponentInChildren<Text>().text = "" + counter;
             showStars = Buttons.GetComponentsInChildren<Image>();
-            Button buttonElement = Buttons.GetComponent<Button>();
+            buttonElement = Buttons.GetComponent<Button>();
             buttonElement.onClick.AddListener(() => GoToLevel(levelName));
 
             switch (StarManagement.starList[i].amountOfStars)
@@ -50,10 +51,15 @@ public class LevelSelect : MonoBehaviour
             }
             Debug.Log("counter = " + counter);
             Debug.Log("levelat = " + levelAt);
-            if (counter > levelAt)
+            if (counter > levelAt && PlayerPrefs.GetInt("Unlocked") == 0)
             {
                 buttonElement.interactable = false;
                 buttonElement.GetComponent<Image>().color = new Color32(0, 0, 20, 255);
+            }
+            else
+            {
+                buttonElement.interactable = true;
+                buttonElement.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             }
         }
     }
