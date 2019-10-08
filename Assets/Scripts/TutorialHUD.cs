@@ -7,8 +7,16 @@ public class TutorialHUD : MonoBehaviour
     public GameObject Player;
     void Start()
     {
+        StartCoroutine(Delay());
+    }
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(2);
         Player.GetComponent<Automove>().Speed_X = 0;
         Player.GetComponent<Animator>().enabled = false;
+        Vector3 p = transform.position;
+        p.z = 0;
+        transform.position = p;
     }
 
     public void StartGame()

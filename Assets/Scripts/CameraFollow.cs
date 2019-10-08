@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour
         float targetObjectY = targetObject.transform.position.y;
         Vector3 newCameraPosition = transform.position;
 
-        if (targetObject.GetComponent<Automove>().Speed_X > 0)
+        if (targetObject.GetComponent<Automove>().Speed_X >= 0)
         {
             newCameraPosition.x = targetObjectX + 4;
         }

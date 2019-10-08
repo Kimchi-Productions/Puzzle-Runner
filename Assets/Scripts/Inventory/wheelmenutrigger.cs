@@ -13,15 +13,16 @@ public class wheelmenutrigger : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && Time.timeScale == 1 && gameObject.GetComponent<Automove>().Speed_X != 0  && Input.mousePosition.x > 88 && Input.mousePosition.y > 88)
+        if (Input.GetMouseButtonDown(0) && Time.timeScale == 1 && gameObject.GetComponent<Automove>().Speed_X != 0)
         {
-            radialmenuspawner.ins.SpawnMenu(Input.mousePosition);
-            HUD.transform.Find("Inventory").GetComponent<Inventory>().clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            //Slow down the game speed
-            Time.timeScale = 0.1f;
-
-            itemCircleInstance = Instantiate(itemCircle, new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 10), Quaternion.identity);
+            if (Input.mousePosition.x > 88 || Input.mousePosition.y > 88)
+            {
+                radialmenuspawner.ins.SpawnMenu(Input.mousePosition);
+                HUD.transform.Find("Inventory").GetComponent<Inventory>().clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                //Slow down the game speed
+                Time.timeScale = 0.1f;
+                itemCircleInstance = Instantiate(itemCircle, new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 10), Quaternion.identity);
+            }
         }
 
         if (Input.GetMouseButtonUp(0) && Time.timeScale == 0.1f)
