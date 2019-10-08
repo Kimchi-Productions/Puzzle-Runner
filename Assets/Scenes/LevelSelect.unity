@@ -536,7 +536,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 306075b9b8b840f43a1ec6b2c3c76cad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 920f4383950734944bafb1ab9fda1d93, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -645,6 +645,7 @@ MonoBehaviour:
     type: 3}
   button: {fileID: 0}
   Buttons: {fileID: 0}
+  buttonElement: {fileID: 0}
   showStars: []
   counter: 1
 --- !u!114 &1266483493
@@ -1147,6 +1148,7 @@ MonoBehaviour:
     type: 3}
   button: {fileID: 0}
   Buttons: {fileID: 0}
+  buttonElement: {fileID: 0}
   showStars: []
   counter: 1
 --- !u!114 &1827704061
