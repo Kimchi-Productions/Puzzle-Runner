@@ -85,7 +85,10 @@ public class Portal : MonoBehaviour, IInventoryItem
     {
         if(other.gameObject.tag == "Player" && gameObject.tag == "CantPickUp")
         {
+            gameObject.GetComponent<AudioSource>().Play();
             player.transform.position = new Vector2(portalOut.transform.position.x, portalOut.transform.position.y);
+        }else{
+            other.gameObject.GetComponent<AudioSource>().Play();
         }
     }
 }

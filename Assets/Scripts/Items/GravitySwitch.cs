@@ -81,6 +81,8 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
             gameObject.GetComponent<AudioSource>().Play();
             Player.GetComponent<Rigidbody2D>().gravityScale = -Player.GetComponent<Rigidbody2D>().gravityScale;
             Player.transform.Rotate(900, 0, 0);
+        }else{
+            collision.gameObject.GetComponent<AudioSource>().Play();
         }
 
     }
