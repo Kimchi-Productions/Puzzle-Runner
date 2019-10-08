@@ -25,7 +25,7 @@ public class wheelmenutrigger : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonUp(0) && Time.timeScale == 0.1f)
+        if (Input.touches[0].phase == TouchPhase.Ended && Time.timeScale == 0.1f)
         {
             Destroy(itemCircleInstance);
         }
