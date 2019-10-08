@@ -5316,8 +5316,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -75.9, y: -30.65503}
-  m_SizeDelta: {x: 99.55005, y: 45.09}
+  m_AnchoredPosition: {x: -79.76, y: -30.65503}
+  m_SizeDelta: {x: 107.27, y: 45.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1700767359152144019
 CanvasRenderer:
@@ -5443,11 +5443,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 822159358387409787}
     m_Modifications:
-    - target: {fileID: 1317844874694929284, guid: f4ddde2115562d948bbb9d41ee871394,
-        type: 3}
-      propertyPath: m_Name
-      value: Audio
-      objectReference: {fileID: 0}
     - target: {fileID: 4494376927145869218, guid: f4ddde2115562d948bbb9d41ee871394,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5502,6 +5497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317844874694929284, guid: f4ddde2115562d948bbb9d41ee871394,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4ddde2115562d948bbb9d41ee871394, type: 3}
