@@ -54,7 +54,8 @@ public class LevelSelect : MonoBehaviour
             if (counter > levelAt && PlayerPrefs.GetInt("Unlocked") == 0)
             {
                 buttonElement.interactable = false;
-                buttonElement.GetComponent<Image>().color = new Color32(0, 0, 20, 255);
+                buttonElement.GetComponent<Image>().color = new Color32(255, 255, 255, 150);
+                Buttons.GetComponentInChildren<Text>().color = new Color32(255, 255, 255, 50);
             }
             else
             {
