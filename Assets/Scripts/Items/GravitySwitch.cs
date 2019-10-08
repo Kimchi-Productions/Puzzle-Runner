@@ -64,6 +64,7 @@ public class GravitySwitch : MonoBehaviour, IInventoryItem
     public void OnDrop(Vector3 spawnPos)
     {
         gameObject.tag = "CantPickUp";
+        gameObject.GetComponent<SpriteRenderer>().sprite = Image;
         gameObject.SetActive(true);
         Vector3 pz = spawnPos;
         pz.z = 0;
