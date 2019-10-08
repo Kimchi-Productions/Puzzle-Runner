@@ -14,5 +14,6 @@ public class StartlevelMenu : MonoBehaviour
     public void startLevel(){
         Time.timeScale = 1f;
         startMenuUI.SetActive(false);
+        ShowStarsInLevel.enableStars();
     }
 }
