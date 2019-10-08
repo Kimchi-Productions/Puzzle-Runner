@@ -70,6 +70,7 @@ public class Portal : MonoBehaviour, IInventoryItem
     public void OnDrop(Vector3 spawnPos)
     {
         gameObject.tag = "CantPickUp";
+        gameObject.GetComponent<SpriteRenderer>().sprite = Image;
         gameObject.SetActive(true);
         gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
         Vector3 pz = spawnPos;
