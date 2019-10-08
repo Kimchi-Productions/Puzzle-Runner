@@ -34,6 +34,8 @@ public class FinishMenu : MonoBehaviour
 
         addedStars = 0;
         pickedUpStars = 0;
+
+        ShowStarsInLevel.disableStars();
     }
 
     public void earnedStars(int s, int a)
