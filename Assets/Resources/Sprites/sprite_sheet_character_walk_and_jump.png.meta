@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: a59ce6d67c61aa44297c8166e0ff3a14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 463805661285597768
+    second: sprite_sheet_character_walk_and_jump_0
+  - first:
+      213: 3093112224143055983
+    second: sprite_sheet_character_walk_and_jump_1
+  - first:
+      213: -518865104039200014
+    second: sprite_sheet_character_walk_and_jump_2
+  - first:
+      213: 854366789102012564
+    second: sprite_sheet_character_walk_and_jump_3
+  - first:
+      213: -6784406216713567560
+    second: sprite_sheet_character_walk_and_jump_4
+  - first:
+      213: 6293720570506558989
+    second: sprite_sheet_character_walk_and_jump_5
+  - first:
+      213: -6219630223842991566
+    second: sprite_sheet_character_walk_and_jump_6
+  - first:
+      213: 8759283409649061232
+    second: sprite_sheet_character_walk_and_jump_7
+  - first:
+      213: -1330132125549588456
+    second: sprite_sheet_character_walk_and_jump_8
+  - first:
+      213: 4508756416422554400
+    second: sprite_sheet_character_walk_and_jump_9
+  - first:
+      213: -120653371067181029
+    second: sprite_sheet_character_walk_and_jump_10
+  - first:
+      213: -8248887939574555101
+    second: sprite_sheet_character_walk_and_jump_11
+  - first:
+      213: 2468087188654805890
+    second: sprite_sheet_character_walk_and_jump_12
+  - first:
+      213: -4403865297906804954
+    second: sprite_sheet_character_walk_and_jump_13
+  - first:
+      213: 2586607364770983283
+    second: sprite_sheet_character_walk_and_jump_14
+  - first:
+      213: -3226868234912839780
+    second: sprite_sheet_character_walk_and_jump_15
+  - first:
+      213: -2210395995846491741
+    second: sprite_sheet_character_walk_and_jump_16
+  - first:
+      213: -8362874880640338935
+    second: sprite_sheet_character_walk_and_jump_17
+  - first:
+      213: 9030903219300688081
+    second: sprite_sheet_character_walk_and_jump_19
+  - first:
+      213: 2264802394533911410
+    second: sprite_sheet_character_walk_and_jump_20
+  - first:
+      213: 8452900721603421522
+    second: sprite_sheet_character_walk_and_jump_21
+  - first:
+      213: 6141363584490321550
+    second: sprite_sheet_character_walk_and_jump_22
+  - first:
+      213: -7327605755470456837
+    second: sprite_sheet_character_walk_and_jump_23
+  - first:
+      213: 3628408881354800376
+    second: sprite_sheet_character_walk_and_jump_24
+  - first:
+      213: -6387335336529349807
+    second: sprite_sheet_character_walk_and_jump_25
+  - first:
+      213: -2889450752502737777
+    second: sprite_sheet_character_walk_and_jump_26
+  - first:
+      213: -6975196086012322074
+    second: sprite_sheet_character_walk_and_jump_27
+  - first:
+      213: -1267168431047383461
+    second: sprite_sheet_character_walk_and_jump_28
+  - first:
+      213: 7298503471926477950
+    second: sprite_sheet_character_walk_and_jump_29
+  - first:
+      213: -3531355024924802376
+    second: sprite_sheet_character_walk_and_jump_30
+  - first:
+      213: 5987950646515357896
+    second: sprite_sheet_character_walk_and_jump_31
+  - first:
+      213: -7206145391462705491
+    second: sprite_sheet_character_walk_and_jump_32
+  - first:
+      213: -8255905928605639863
+    second: sprite_sheet_character_walk_and_jump_33
+  - first:
+      213: 3843228788202631898
+    second: sprite_sheet_character_walk_and_jump_34
+  - first:
+      213: 6569450301646863236
+    second: sprite_sheet_character_walk_and_jump_35
+  - first:
+      213: -2156237554338157780
+    second: sprite_sheet_character_walk_and_jump_36
+  - first:
+      213: -2834297972088822902
+    second: sprite_sheet_character_walk_and_jump_37
+  - first:
+      213: -5875741851629541643
+    second: sprite_sheet_character_walk_and_jump_38
+  - first:
+      213: 5092116470427682329
+    second: sprite_sheet_character_walk_and_jump_39
+  - first:
+      213: 8200157954073761989
+    second: sprite_sheet_character_walk_and_jump_40
+  - first:
+      213: -5067365748974277461
+    second: sprite_sheet_character_walk_and_jump_41
+  - first:
+      213: 5465642802185195712
+    second: sprite_sheet_character_walk_and_jump_42
+  - first:
+      213: -7164513096741801163
+    second: sprite_sheet_character_walk_and_jump_43
+  - first:
+      213: -3312330602819682760
+    second: sprite_sheet_character_walk_and_jump_44
+  - first:
+      213: -8456695395064332388
+    second: sprite_sheet_character_walk_and_jump_46
+  - first:
+      213: -3976221740855512956
+    second: sprite_sheet_character_walk_and_jump_47
+  - first:
+      213: 227161205009817075
+    second: sprite_sheet_character_walk_and_jump_48
+  - first:
+      213: 436773559494878958
+    second: sprite_sheet_character_walk_and_jump_49
+  - first:
+      213: 3234175517210284942
+    second: sprite_sheet_character_walk_and_jump_50
+  - first:
+      213: 5981769829724086099
+    second: sprite_sheet_character_walk_and_jump_51
+  - first:
+      213: 4786641843440589649
+    second: sprite_sheet_character_walk_and_jump_52
+  - first:
+      213: 8993915360302495617
+    second: sprite_sheet_character_walk_and_jump_53
+  - first:
+      213: 3246070167171088667
+    second: sprite_sheet_character_walk_and_jump_55
+  - first:
+      213: -6111942701186640481
+    second: sprite_sheet_character_walk_and_jump_56
+  - first:
+      213: -8997340598907209134
+    second: sprite_sheet_character_walk_and_jump_57
+  - first:
+      213: 5510623744850457662
+    second: sprite_sheet_character_walk_and_jump_58
+  - first:
+      213: -5204124647805055770
+    second: sprite_sheet_character_walk_and_jump_59
+  - first:
+      213: 911115050932724102
+    second: sprite_sheet_character_walk_and_jump_60
+  - first:
+      213: 85569924444473602
+    second: sprite_sheet_character_walk_and_jump_61
+  - first:
+      213: -5774013555731134684
+    second: sprite_sheet_character_walk_and_jump_62
+  - first:
+      213: -2532499359955897429
+    second: sprite_sheet_character_walk_and_jump_63
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_0
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 8018
+        width: 637
+        height: 936
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cfdb4b9d038ab418bfa3632e4af08a
+      internalID: 463805661285597768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_2
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 8014
+        width: 615
+        height: 944
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa08621f626f63d47b509a24b8367104
+      internalID: -518865104039200014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_3
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 8009
+        width: 584
+        height: 942
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1745e5c06fdebd144a8f31bba64a6aa2
+      internalID: 854366789102012564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_4
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 8009
+        width: 540
+        height: 940
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2172db8d66be442a66f1ddedf4c119
+      internalID: -6784406216713567560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_5
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 8014
+        width: 492
+        height: 930
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed421bb9ff6fe4a4d85d029f1f51a0fd
+      internalID: 6293720570506558989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_8
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 7047
+        width: 435
+        height: 887
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3bd0974581a9c4cbc704ecadd8c99c
+      internalID: -1330132125549588456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_10
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 7038
+        width: 315
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75095a72eeab01242a48858a3c0a4d4e
+      internalID: -120653371067181029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_12
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 7034
+        width: 294
+        height: 935
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd4e9ac7c29572439b18751da03c54e
+      internalID: 2468087188654805890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_13
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 7034
+        width: 316
+        height: 937
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c59076b281427244807d9b7d9397ddd
+      internalID: -4403865297906804954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_14
+      rect:
+        serializedVersion: 2
+        x: 4282
+        y: 7034
+        width: 404
+        height: 926
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3094cd5c4747a428231bbc94ea8f93
+      internalID: 2586607364770983283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 6050
+        width: 492
+        height: 912
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61422e6c3db029e4492473c5bd4a0354
+      internalID: -2210395995846491741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_17
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 6061
+        width: 538
+        height: 888
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac90e9b61bb3e64cb18baa66963af67
+      internalID: -8362874880640338935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_19
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 6055
+        width: 518
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5886dd6e150a0c46ae23f4b31f0d8fc
+      internalID: 9030903219300688081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_20
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 6063
+        width: 492
+        height: 878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ad29077d6ae5a4cb75a503ae8e57bc
+      internalID: 2264802394533911410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_21
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 6084
+        width: 461
+        height: 879
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3864bb6e8dae064189a566b860e1dee
+      internalID: 8452900721603421522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 5087
+        width: 426
+        height: 894
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e427b3cb85faa9646987c7fd0a7c9d61
+      internalID: 6141363584490321550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_23
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 5060
+        width: 381
+        height: 901
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105e1b7b2c6409c4198c4058e2802104
+      internalID: -7327605755470456837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_24
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 5100
+        width: 355
+        height: 904
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46429b0a2d295c4459e70ab7cb897c8f
+      internalID: 3628408881354800376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_25
+      rect:
+        serializedVersion: 2
+        x: 3306
+        y: 5060
+        width: 378
+        height: 907
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9ddb9e63d75d644b87e7b0aeef9e0b
+      internalID: -6387335336529349807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_26
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 5069
+        width: 422
+        height: 909
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d567e83c3b70074d9c99250f10102a2
+      internalID: -2889450752502737777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_27
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 4058
+        width: 457
+        height: 905
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0523a214ced99124789f0e7f8d0fd587
+      internalID: -6975196086012322074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_28
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 4059
+        width: 522
+        height: 909
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a4dd9d6635e6c47bb62f47cfe8a193
+      internalID: -1267168431047383461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_29
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4073
+        width: 576
+        height: 917
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3439ba56a5d13db4f97358b6cedf9896
+      internalID: 7298503471926477950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_31
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 4032
+        width: 656
+        height: 931
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ec15c931fb1104dbd2565d70ea9aa6
+      internalID: 5987950646515357896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_33
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 4045
+        width: 308
+        height: 923
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed59e2bdb6560b24b9aeb3a7ea3e46e1
+      internalID: -8255905928605639863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_36
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 3021
+        width: 500
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a58308c895dfa04390539695216f8e9
+      internalID: -2156237554338157780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_37
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 2995
+        width: 535
+        height: 958
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a420166c53851e45af7b7d2e9cdb38c
+      internalID: -2834297972088822902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_38
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 2995
+        width: 477
+        height: 958
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cabb21fb791ee40a2e8f951d6f5838
+      internalID: -5875741851629541643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_39
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 2986
+        width: 436
+        height: 966
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b37440c5e7a8499a7bafb8fe702bf
+      internalID: 5092116470427682329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_40
+      rect:
+        serializedVersion: 2
+        x: 4304
+        y: 3035
+        width: 404
+        height: 957
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ba217f83fca38479113d4052fab3a9
+      internalID: 8200157954073761989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2029
+        width: 404
+        height: 938
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7443ebec77463a545a9f712a942b25ea
+      internalID: -5067365748974277461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_42
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 2063
+        width: 407
+        height: 895
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed230da788fdfba41aeadc7752341053
+      internalID: 5465642802185195712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_43
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 2028
+        width: 405
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8855f7a302d2dae4ab3d4d0354d4a45b
+      internalID: -7164513096741801163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_44
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 2074
+        width: 408
+        height: 823
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ec3120abe0b244fbf225eb9eac31b9
+      internalID: -3312330602819682760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_46
+      rect:
+        serializedVersion: 2
+        x: 4286
+        y: 2068
+        width: 403
+        height: 839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dc94d343d00c94db8ca243417b49ed
+      internalID: -8456695395064332388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_48
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 1031
+        width: 440
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbfb8493877adb4fb2ec2cb15f076a8
+      internalID: 227161205009817075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_50
+      rect:
+        serializedVersion: 2
+        x: 4203
+        y: 1048
+        width: 623
+        height: 935
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9032216e126aa49a0a9d4eb9ba01ea
+      internalID: 3234175517210284942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_51
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1053
+        width: 398
+        height: 873
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58da2af1db4f0f41957ede208108011
+      internalID: 5981769829724086099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_52
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 1010
+        width: 408
+        height: 913
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef128e565224e7459782fdf8c3569ed
+      internalID: 4786641843440589649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_53
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 1033
+        width: 554
+        height: 928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e9c0003d5e84f42a7eabbe6e9152e4
+      internalID: 8993915360302495617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 665
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95093e433f72e784f9b49056e01d2d78
+      internalID: 5510623744850457662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_59
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 71
+        width: 698
+        height: 920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df081811eac9439449b64600770e3f94
+      internalID: -5204124647805055770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_61
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 24
+        width: 579
+        height: 931
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4543a2f61a8e634fa973c1ef9465b95
+      internalID: 85569924444473602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet_character_walk_and_jump_62
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 29
+        width: 386
+        height: 935
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395aff58869cfe24b8504522c0e44a6b
+      internalID: -5774013555731134684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

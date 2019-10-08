@@ -83,6 +83,7 @@ public class JumpPad : MonoBehaviour, IInventoryItem
         {
             gameObject.GetComponent<Animator>().enabled = true;
             gameObject.GetComponent<AudioSource>().Play();
+            collision.gameObject.GetComponent<Animator>().SetTrigger("jump");
             
             if (gameObject.GetComponent<Rigidbody2D>().gravityScale > 0)
             {
