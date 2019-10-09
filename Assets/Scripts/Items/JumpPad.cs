@@ -106,7 +106,7 @@ public class JumpPad : MonoBehaviour, IInventoryItem
 
             }
         }
-        else if (collision.gameObject.tag != "floor") {
+        else if (collision.gameObject.tag == "Player") {
             collision.gameObject.GetComponent<AudioSource>().Play();
         }
     }

@@ -87,7 +87,7 @@ public class Portal : MonoBehaviour, IInventoryItem
         {
             gameObject.GetComponent<AudioSource>().Play();
             player.transform.position = new Vector2(portalOut.transform.position.x, portalOut.transform.position.y);
-        }else{
+        }else if (other.gameObject.tag == "Player"){
             other.gameObject.GetComponent<AudioSource>().Play();
         }
     }
